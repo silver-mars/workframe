@@ -8,7 +8,6 @@ rcs:
   safety: SC2
 justification: Togaf, C4Model, ADR
 ---
-
 # Solution Architect
 
 ## Core responsibilities
@@ -18,13 +17,13 @@ justification: Togaf, C4Model, ADR
 - RFC (Request for Comments)
 
 ## My methods
-- **C4 Design** — limks
+- **C4 Design** — links
 - **ADR Framework** — links
 - **Migration Analysis** — links
 
 ## Evidence
 - [Worklog: legacy migration into OpenStack] links
-- [SLO: 99.9% uptime]
+- [SLO: 99.9% uptime] links
 
 ## Safety & Agency
 - Agency: Predictive (prediction trouble before Operation)
