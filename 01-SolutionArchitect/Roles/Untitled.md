@@ -18,14 +18,14 @@ justification: "Togaf, C4Model, ADR — стандартная практика"
 - RFC (Request for Comments)
 
 ## My methods (что я умею)
-- **C4 Design** — 
-- **ADR Framework** — 
+- **C4 Design** — l8nks
+- **ADR Framework** — links
 - **Migration Analysis** — links
 
-## Evidence (доказательства)
-- [Worklog: Миграция legacy-системы в OpenStack]
-- [SLO для архитектуры: 99.9% uptime]
+## Evidence
+- [Worklog: legacy migration into OpenStack] links
+- [SLO: 99.9% uptime]
 
 ## Safety & Agency
-- Agency: Predictive (предсказываю проблемы до Operation)
+- Agency: Predictive (prediction trouble Operation)
 - Safety: SC2 (критичные системы, но с rollback)
