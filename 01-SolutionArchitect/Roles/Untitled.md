@@ -11,14 +11,14 @@ justification: "Togaf, C4Model, ADR — стандартная практика"
 
 # Solution Architect
 
-## Core responsibilities (что ожидают)
-- Архитектурное проектирование систем
-- C4-моделирование
+## Core responsibilities
+- Architect projecting
+- C4
 - ADR (Architecture Decision Records)
 - RFC (Request for Comments)
 
-## My methods (что я умею)
-- **C4 Design** — l8nks
+## My methods
+- **C4 Design** — limks
 - **ADR Framework** — links
 - **Migration Analysis** — links
 
@@ -27,5 +27,5 @@ justification: "Togaf, C4Model, ADR — стандартная практика"
 - [SLO: 99.9% uptime]
 
 ## Safety & Agency
-- Agency: Predictive (prediction trouble Operation)
-- Safety: SC2 (критичные системы, но с rollback)
+- Agency: Predictive (prediction trouble before Operation)
+- Safety: SC2 (critical system with rollback)
