@@ -1,12 +1,12 @@
 ---
 type: role
 context: SolutionArchitectContext
-maturity: M3  # Evidence-ready: есть worklogs
+maturity: M3
 status: Active
-rcs:  # Role Characterisation Space (FPF)
-  agency: Predictive  # Reactive/Adaptive/Predictive/Autonomous
-  safety: SC2         # SC0-3 (риски)
-justification: "Togaf, C4Model, ADR — стандартная практика"  # Episteme
+rcs:
+  agency: Predictive
+  safety: SC2
+justification: Togaf, C4Model, ADR
 ---
 
 # Solution Architect
