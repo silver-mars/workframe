@@ -1,11 +1,12 @@
 ---
 type: role
+name: SolutionArchitect
 context: SolutionArchitectContext
 maturity: M3
 status: Active
 rcs:
-  agency: Predictive
-  safety: SC2
+ - "agency: Predictive"
+ - "safety: SC2"
 justification: Togaf, C4Model, ADR
 ---
 # Solution Architect
