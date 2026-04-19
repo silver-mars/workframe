@@ -7,3 +7,4 @@ Each artifact progresses through the ESEO cycle (Exploration → Shaping → Evi
 - `works/` = evidence of application
 ## Navigation
 Roles:
+[Solution architect](R.SolutionArchitect.md)
