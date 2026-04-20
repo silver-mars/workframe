@@ -1,1 +1,1 @@
-There is method of cloud capacity planning and quota management
+There is a method for cloud capacity planning and quota management
