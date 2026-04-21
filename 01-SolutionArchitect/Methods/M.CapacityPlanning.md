@@ -4,7 +4,7 @@ name: Capacity planning
 context: SolutionArchitectContext
 maturity: m3
 status: Active
-bindsRole: [R.Solution architect](R.SolutionArchitect.md)
+
 rcs:
  - "agency: Predictive"
  - "safety: SC2"
