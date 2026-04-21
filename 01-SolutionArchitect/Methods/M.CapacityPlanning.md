@@ -9,6 +9,7 @@ rcs:
  - "agency: Predictive"
  - "safety: SC2"
 preconditions:
-
+ - "Access to infrastructure dashboard"
+ - "
 ---
 There is a method for cloud capacity planning and quota management
