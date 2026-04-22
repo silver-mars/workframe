@@ -14,5 +14,6 @@ preconditions:
 ---
 # Capacity planning and quota management
 ## What it is
+OpenStack (or another virtual environment) quote management 
 
 There is a method for cloud capacity planning and quota management
