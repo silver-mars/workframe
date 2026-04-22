@@ -9,7 +9,7 @@ rcs:
   - "agency: Predictive"
   - "safety: SC2"
 preconditions:
-  - Access to infrastructure dashboard
+  - Access to the infrastructure dashboard
   - Understanding critical system classification
 ---
 There is a method for cloud capacity planning and quota management
