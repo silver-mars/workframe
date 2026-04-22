@@ -13,5 +13,6 @@ preconditions:
   - Understanding critical system classification
 ---
 # Capacity planning and quota management
-## W
+## What it is
+
 There is a method for cloud capacity planning and quota management
