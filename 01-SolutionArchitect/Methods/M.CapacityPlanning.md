@@ -12,4 +12,6 @@ preconditions:
   - Access to the infrastructure dashboard
   - Understanding critical system classification
 ---
+# Capacity planning and quota management
+## W
 There is a method for cloud capacity planning and quota management
