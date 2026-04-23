@@ -18,7 +18,7 @@ OpenStack (or another virtual environment) quota management method to prevent ca
 
 Step by step
 1. Definite a critical system class. If there are an another important reason, ask it (it is a release new important feature for CTO, emergency cluster update, etc.)
-This step clauses priority. Works sep
+This step clauses priority. Works separates to current, important and emergency types. (There are link)
 
 
 
