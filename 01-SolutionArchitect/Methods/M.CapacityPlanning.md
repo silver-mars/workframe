@@ -16,7 +16,9 @@ preconditions:
 ## What it is
 OpenStack (or another virtual environment) quota management method to prevent capacity crisis.
 
-Step
+Step by step
+1. Definite a critical system class. If 
+
 
 
 There is a method for cloud capacity planning and quota management
