@@ -14,8 +14,7 @@ preconditions:
 ---
 # Capacity planning and quota management
 ## What it is
-This approach uses quotas in Openstack, or in another virtualized/
-OpenStack (or another virtual environment) quota management method to prevent capacity crisis.
+This approach uses quotas in Openstack, or in another virtualized/cloud environment, to prevent resource exhaustion.
 
 Step by step
 1. Definite a critical system class. If there are an another important reason, ask it (it is a release new important feature for CTO, emergency cluster update, etc.)
