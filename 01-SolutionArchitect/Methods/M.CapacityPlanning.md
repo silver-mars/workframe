@@ -17,8 +17,7 @@ preconditions:
 This approach uses quotas in Openstack, or in another virtualized/cloud environment, to prevent resource exhaustion.
 
 Step by step
-1. Define the system's criticality class. Of there is another reason to prioritize it, clarify that as well, for example a high-priority feature release requested by CTO or an
-2. If there are an another important reason, ask it (it is a release new important feature for CTO, emergency cluster update, etc.)
+1. Define the system's criticality class. If there is another reason to prioritize it, clarify that as well, for example a high-priority feature release requested by thrCTO or an emergency cluster update.
 This step clauses priority. Works separates to current, important and emergency types. (There are link)
 
 
