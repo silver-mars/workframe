@@ -18,7 +18,7 @@ This approach uses quotas in Openstack, or in another virtualized/cloud environm
 
 Step by step
 1. Define the system's criticality class. If there is another important reason to prioritize it, clarify that as well, for example a high-priority feature release requested by the CTO or an emergency cluster update.
-This step defines the priority. The priority also depends on the environment, such as dev, staging, production. Works separates to current, important and emergency types.
+This step defines the priority. The priority also depends on the environment, such as dev, staging, or production. Works separates to current, important and emergency types.
 Important in this context means that current capacity isn't enough and you need count when you will can provide it.
 
 (There are link)
