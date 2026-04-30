@@ -22,6 +22,7 @@ This step defines the priority. The priority also depends on the target environm
 In this context, **important** means that the current capacity is insufficient, so you need to estimate when the required capacity will become available.
 **Routine** means that the quota request is not urgent, so the decision can be made later. For example, this could be a quota request for load testing that is scheduled to run in three weeks.
 
+
 (There are link)
 
 
