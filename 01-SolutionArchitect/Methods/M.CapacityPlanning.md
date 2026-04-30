@@ -20,7 +20,7 @@ Step by step
 1. Define the system's criticality class. If there is another important reason to prioritize it, clarify that as well, for example a high-priority feature release requested by the CTO or an emergency cluster update.
 This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. Requests should be classified as current, important or urgent.
 In this context, **important** means that the current capacity is insufficient, so you need to estimate when the required capacity will become available.
-**Current** means that quota request isn't urgent and decision about this can will later. For example: quota for load testing that will be running only in 3 weeks.
+**Current** means that the quota request is not urgent and decision about this can will later. For example: quota for load testing that will be running only in 3 weeks.
 
 (There are link)
 
