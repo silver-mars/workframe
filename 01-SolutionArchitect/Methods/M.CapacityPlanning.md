@@ -23,7 +23,7 @@ In this context, **important** means that the current capacity is insufficient, 
 **Routine** means that the quota request is not urgent, so the decision can be made later. For example, this could be a quota request for load testing that is scheduled to run in three weeks.
 **Urgent** means that you have to switch context of you current activity, чтобы immediately find a solution the incident. A high-priority feature release is here.
 This classification need for less switch context:
-virtual machines lose nanoseconds for save their current context and switch to an another process, but human lose more time, AI agents also need more memory to free up current quests and load a new task, so this is about stack (or очередь)
+virtual machines lose nanoseconds for save their current context and switch to an another process, but human lose more time, AI agents also need more memory to free up current quests and load a new task, so this is about stack (or очередь) and context switching manage.
 
 (There are link)
 
