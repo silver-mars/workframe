@@ -24,7 +24,7 @@ In this context, **important** means that the current capacity is insufficient, 
 **Urgent** means that you have to switch context from your current activity and respond to the incident immediately. A high-priority feature release can also be treated as urgent.
 This classification is needed to reduce context switching. Virtual machines spend time saving their current context and switching to another process, but humans lose much more time when they switch tasks. AI agents also need additional memory to unload the current context and load a new task, so this classification is really about queue management and reducing context-switching overhead.
 2. Ask why they need to increase capacity. What do they want to add to the project? Is it a database, kubernetes cluster or a load balancer? Which goal do they want to achieve? Is the goal to release a new feature or add a new disk for the database? Is the requested quota sufficient, or is it too small or to large? Is this the best solution for their architecture, or can you offer a better one? Clients often don't estimate quota requirements precisely and ask for much more disk space or additional quota just in case.
-This step also verifies compliance with cloud-native principles, including scalability, resilience, adaptability
+This step also verifies compliance with cloud-native principles, including scalability, resilience, adaptability automation, etc.
 
 
 There is a method for cloud capacity planning and quota management
