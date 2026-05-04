@@ -16,7 +16,7 @@ preconditions:
 ## What it is
 This approach uses quotas in Openstack, or in another virtualized/cloud environment, to prevent resource exhaustion and maintain sustainable platform capacity.
 ## Why it matters
-Quota management here is a decision framework that helps prioritize requests, reduce unnecessary context switching and ensure
+Quota management here is a decision framework that helps prioritize requests, reduce unnecessary context switching and ensure that capacity is allocated 
 
 Step by step
 1. Define the system's criticality class. If there is another important reason to prioritize it, clarify that as well, for example a high-priority feature release requested by the CTO or an emergency cluster update.
