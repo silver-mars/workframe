@@ -16,11 +16,14 @@ preconditions:
 ## What it is
 This approach uses quotas in Openstack, or in another virtualized/cloud environment, to prevent resource exhaustion and maintain sustainable platform capacity.
 ## Why it matters
-Quota management here is a decision framework that helps prioritize requests, reduce unnecessary context switching and ensure that capacity is allocated 
+Quota management here is a decision framework that helps prioritize requests, reduce unnecessary context switching and ensure that capacity is allocated according to business impact, architectural fit, and actual demand.
+## Priority model
+Requests should be classified as routine, important or urgent.
+
 
 Step by step
 1. Define the system's criticality class. If there is another important reason to prioritize it, clarify that as well, for example a high-priority feature release requested by the CTO or an emergency cluster update.
-This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. Requests should be classified as routine, important or urgent.
+This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. 
 In this context, **important** means that the current capacity is insufficient, so you need to estimate when the required capacity will become available, or take action to reclaim existing capacity. For example, this may involve running fstrim to reclaim disk space.
 **Routine** means that the quota request is not urgent, so the decision can be made later. For example, this could be a quota request for load testing that is scheduled to run in three weeks.
 **Urgent** means that you have to switch context from your current activity and respond to the incident immediately. A high-priority feature release can also be treated as urgent.
