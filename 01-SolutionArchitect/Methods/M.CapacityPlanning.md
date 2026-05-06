@@ -21,7 +21,7 @@ Quota management here is a decision framework that helps prioritize requests, re
 Requests should be classified as routine, important or urgent.
 * **Routine** means that the request is not time-sensitive, so the decision can be made later. For example, this could be a quota request for load testing scheduled to run in a three weeks.
 * **Important** means that current capacity is insufficient, but the situation doesn't require immediate interruption of ongoing work. In this case, you need to estimate when the require capacity will become available or take action to reclaim existing capacity. For example, this may involve running fstrim to reclaim disk space.
-* **Urgent** means that the request 
+* **Urgent** means that the request requires immediate attention and forces you to interrupt your current work. This usually applies to incidents, production-impacting changes, or exceptional 
 
 
 Step by step
