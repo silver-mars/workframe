@@ -20,7 +20,7 @@ Quota management here is a decision framework that helps prioritize requests, re
 ## Priority model
 Requests should be classified as routine, important or urgent.
 * **Routine** means that the request is not time-sensitive, so the decision can be made later. For example, this could be a quota request for load testing scheduled to run in a three weeks.
-* **Important** means that current capacity is insufficient, 
+* **Important** means that current capacity is insufficient, but the situation doesn't require immediate interruption of ongoing work. In this case, you need to estimate when the require capacity will be 
 
 
 Step by step
