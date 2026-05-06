@@ -20,14 +20,13 @@ Quota management here is a decision framework that helps prioritize requests, re
 ## Priority model
 Requests should be classified as routine, important or urgent.
 * **Routine** means that the request is not time-sensitive, so the decision can be made later. For example, this could be a quota request for load testing scheduled to run in a three weeks.
-* **Important** means that current capacity is insufficient, but the situation doesn't require immediate interruption of ongoing work. In this case, you need to estimate when the require capacity will be 
+* **Important** means that current capacity is insufficient, but the situation doesn't require immediate interruption of ongoing work. In this case, you need to estimate when the require capacity will become available or take action to reclaim existing capacity. For example, this may involve running fstrim to reclaim disk space.
+* **Urgent** means that the request 
 
 
 Step by step
 1. Define the system's criticality class. If there is another important reason to prioritize it, clarify that as well, for example a high-priority feature release requested by the CTO or an emergency cluster update.
 This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. 
-In this context, **important** means that the current capacity is insufficient, so you need to estimate when the required capacity will become available, or take action to reclaim existing capacity. For example, this may involve running fstrim to reclaim disk space.
-
 **Urgent** means that you have to switch context from your current activity and respond to the incident immediately. A high-priority feature release can also be treated as urgent.
 This classification is needed to reduce context switching. Virtual machines spend time saving their current context and switching to another process, but humans lose much more time when they switch tasks. AI agents also need additional memory to unload the current context and load a new task, so this classification is really about queue management and reducing context-switching overhead.
 2. Ask why they need to increase capacity. What do they want to add to the project? Is it a database, kubernetes cluster or a load balancer? Which goal do they want to achieve? Is the goal to release a new feature or add a new disk for the database? Is the requested quota sufficient, or is it too small or to large? Is this the best solution for their architecture, or can you offer a better one? Clients often don't estimate quota requirements precisely and ask for much more disk space or additional quota just in case.
