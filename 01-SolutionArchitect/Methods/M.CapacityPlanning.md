@@ -25,7 +25,7 @@ Requests should be classified as routine, important or urgent.
 This classification is needed to reduce context switching. Virtual machines spend time saving their current context and switching to another process, but humans lose much more time when they switch tasks. AI agents also need additional memory to unload the current context and load a new task, so this classification is really about queue management and reducing context-switching overhead.
 ## Decision workflow
 1. Define the critically. 
-Define the system's criticality class first. Also 
+Define the system's criticality class first. Also identify any additional reason for prioritization, such as production incident, an emergency cluster update, or a high-priority feature release requested by CTO.
 
 
 This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. 
