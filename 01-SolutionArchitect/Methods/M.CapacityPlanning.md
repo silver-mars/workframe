@@ -27,8 +27,10 @@ This classification is needed to reduce context switching. Virtual machines spen
 1. Define the critically. 
 Define the system's criticality class first. Also identify any additional reason for prioritization, such as production incident, an emergency cluster update, or a high-priority feature release requested by CTO.
 2. Clarify the purpose.
-Ask why additional capacity is needed. Identify what the teams want to add or change, such as a database, a Kubernetes cluster, a load balancer or additional storage. Then clarify the expected outcome, for example a new feature release, 
-3. Validate right-sizing
+Ask why additional capacity is needed. Identify what the teams want to add or change, such as a database, a Kubernetes cluster, a load balancer or additional storage. Then clarify the expected outcome, for example a new feature release, higher traffic tolerance, better database performance, or platform stabilization.
+3. Review current capacity.
+Check current utilization, available regional capacity, and quota headroom. This step should confirm whether 
+4. Validate right-sizing
 Determine whether 
 
 
