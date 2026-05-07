@@ -26,6 +26,10 @@ This classification is needed to reduce context switching. Virtual machines spen
 ## Decision workflow
 1. Define the critically. 
 Define the system's criticality class first. Also identify any additional reason for prioritization, such as production incident, an emergency cluster update, or a high-priority feature release requested by CTO.
+2. Clarify the purpose.
+Ask why additional capacity is needed. Identify what the teams want 
+3. Validate right-sizing
+Determine whether 
 
 
 This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. 
