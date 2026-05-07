@@ -23,13 +23,15 @@ Requests should be classified as routine, important or urgent.
 * **Important** means that current capacity is insufficient, but the situation doesn't require immediate interruption of ongoing work. In this case, you need to estimate when the require capacity will become available or take action to reclaim existing capacity. For example, this may involve running fstrim to reclaim disk space.
 * **Urgent** means that the request requires immediate attention and forces you to interrupt your current work. This usually applies to incidents, production-impacting changes, or exceptional high priority deliveries that cannot be delayed.
 This classification is needed to reduce context switching. Virtual machines spend time saving their current context and switching to another process, but humans lose much more time when they switch tasks. AI agents also need additional memory to unload the current context and load a new task, so this classification is really about queue management and reducing context-switching overhead.
+## Decision workflow
+1. Define the critically. 
+Define the system's criticality class first. Also 
 
-Step by step
-1. Define the system's criticality class. If there is another important reason to prioritize it, clarify that as well, for example a high-priority feature release requested by the CTO or an emergency cluster update.
+
 This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. 
 
 
-2. Ask why they need to increase capacity. What do they want to add to the project? Is it a database, kubernetes cluster or a load balancer? Which goal do they want to achieve? Is the goal to release a new feature or add a new disk for the database? Is the requested quota sufficient, or is it too small or to large? Is this the best solution for their architecture, or can you offer a better one? Clients often don't estimate quota requirements precisely and ask for much more disk space or additional quota just in case.
+3. Ask why they need to increase capacity. What do they want to add to the project? Is it a database, kubernetes cluster or a load balancer? Which goal do they want to achieve? Is the goal to release a new feature or add a new disk for the database? Is the requested quota sufficient, or is it too small or to large? Is this the best solution for their architecture, or can you offer a better one? Clients often don't estimate quota requirements precisely and ask for much more disk space or additional quota just in case.
 This step also verifies compliance with cloud-native principles, including scalability, resilience, adaptability automation, etc.
 
 
