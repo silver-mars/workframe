@@ -31,7 +31,7 @@ Ask why additional capacity is needed. Identify what the teams want to add or ch
 3. **Review current capacity**
 Check current utilization, available regional capacity, and quota headroom. This step should confirm whether the request is driven by actual demand, protected growth, or inefficient resource usage.
 4. **Validate right-sizing**
-Determine whether the requested quota 
+Determine whether the requested quota is properly sized. In many cases, clients overestimated 
 
 
 This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. 
