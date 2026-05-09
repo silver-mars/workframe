@@ -32,6 +32,8 @@ Ask why additional capacity is needed. Identify what the teams want to add or ch
 Check current utilization, available regional capacity, and quota headroom. This step should confirm whether the request is driven by actual demand, protected growth, or inefficient resource usage.
 4. **Validate right-sizing**
 Determine whether the requested quota is properly sized. In many cases, clients overestimated their needs and ask for extra disk space or other quota just in case. The request should be large enough to support the target workload, but not oversized without evidence.
+5. **Assessed the architecture**
+Evaluate whether the request is architecturally appropriate and aligned with cloud-native principles,
 
 
 This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. 
