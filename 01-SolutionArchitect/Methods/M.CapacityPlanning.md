@@ -35,7 +35,7 @@ Determine whether the requested quota is properly sized. In many cases, clients 
 5. **Assessed the architecture**
 Evaluate whether the request is architecturally appropriate and aligned with cloud-native principles, 
 6. **Make the decision**
-Based on the findings, decide whether to approve, adjust, delay, reject, or replace the request with a better solution. 
+Based on the findings, decide whether to approve, adjust, delay, reject, or replace the request with a better solution. The goal is to satisfy the request, preserve platform stability and allocate capacity responsibly.
 
 
 This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. 
