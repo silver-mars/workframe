@@ -38,10 +38,8 @@ Evaluate whether the request is architecturally appropriate and aligned with clo
 Based on the findings, decide whether to approve, adjust, delay, reject, or replace the request with a better solution. The goal is to satisfy the request, preserve platform stability and allocate capacity responsibly.
 
 
-This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. 
+The priority also depends on the target environment, such as dev, staging, or production. 
 
-
-3. Ask why they need to increase capacity. What do they want to add to the project? Is it a database, kubernetes cluster or a load balancer? Which goal do they want to achieve? Is the goal to release a new feature or add a new disk for the database? Is the requested quota sufficient, or is it too small or to large? Is this the best solution for their architecture, or can you offer a better one? Clients often don't estimate quota requirements precisely and ask for much more disk space or additional quota just in case.
 This step also verifies compliance with cloud-native principles, including scalability, resilience, adaptability automation, etc.
 
 
