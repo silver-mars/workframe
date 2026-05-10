@@ -34,6 +34,8 @@ Check current utilization, available regional capacity, and quota headroom. This
 Determine whether the requested quota is properly sized. In many cases, clients overestimated their needs and ask for extra disk space or other quota just in case. The request should be large enough to support the target workload, but not oversized without evidence.
 5. **Assessed the architecture**
 Evaluate whether the request is architecturally appropriate and aligned with cloud-native principles, 
+6. **Make the decision**
+
 
 
 This step defines the priority. The priority also depends on the target environment, such as dev, staging, or production. 
