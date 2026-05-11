@@ -25,7 +25,8 @@ Requests should be classified as routine, important or urgent.
 This classification is needed to reduce context switching. Virtual machines spend time saving their current context and switching to another process, but humans lose much more time when they switch tasks. AI agents also need additional memory to unload the current context and load a new task, so this classification is really about queue management and reducing context-switching overhead.
 ## Decision workflow
 1. **Define the critically**
-Define the system's criticality class first. Also identify any additional reason for prioritization, such as production incident, an emergency cluster update, or a high-priority feature release requested by CTO.
+Define the system's criticality class first. The priority also depends on the target environment, such as development, staging, or production, because the same request may be treated differently depending on the workload runs
+Also identify any additional reason for prioritization, such as production incident, an emergency cluster update, or a high-priority feature release requested by CTO.
 2. **Clarify the purpose**
 Ask why additional capacity is needed. Identify what the teams want to add or change, such as a database, a Kubernetes cluster, a load balancer or additional storage. Then clarify the expected outcome, for example a new feature release, higher traffic tolerance, better database performance, or platform stabilization.
 3. **Review current capacity**
