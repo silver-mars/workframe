@@ -31,7 +31,7 @@ Ask why additional capacity is needed. Identify what the teams want to add or ch
 3. **Review current capacity**
 Check current utilization, available regional capacity, and quota headroom. This step should confirm whether the request is driven by actual demand, protected growth, or inefficient resource usage.
 4. **Assess the architecture**
-Evaluate whether the request is architecturally appropriate and aligned with cloud-native principles, including scalability, resilience, adaptability, and automation. A quota increase should not be the default answer if a better solution 
+Evaluate whether the request is architecturally appropriate and aligned with cloud-native principles, including scalability, resilience, adaptability, and automation. A quota increase should not be the default answer if a better architectural solution is available.
 5. **Validate right-sizing**
 Determine whether the requested quota is properly sized. In many cases, clients overestimated their needs and ask for extra disk space or other quota just in case. The request should be large enough to support the target workload, but not oversized without evidence.
 6. **Make the decision**
