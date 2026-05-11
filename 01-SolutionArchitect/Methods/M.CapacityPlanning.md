@@ -39,8 +39,3 @@ Based on the findings, decide whether to approve, adjust, delay, reject, or repl
 
 
 The priority also depends on the target environment, such as dev, staging, or production. 
-
-This step also verifies compliance with cloud-native principles, including scalability, resilience, adaptability automation, etc.
-
-
-There is a method for cloud capacity planning and quota management
