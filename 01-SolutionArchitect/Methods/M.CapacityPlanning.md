@@ -30,10 +30,10 @@ Define the system's criticality class first. Also identify any additional reason
 Ask why additional capacity is needed. Identify what the teams want to add or change, such as a database, a Kubernetes cluster, a load balancer or additional storage. Then clarify the expected outcome, for example a new feature release, higher traffic tolerance, better database performance, or platform stabilization.
 3. **Review current capacity**
 Check current utilization, available regional capacity, and quota headroom. This step should confirm whether the request is driven by actual demand, protected growth, or inefficient resource usage.
-4. **Validate right-sizing**
+4. **Assess the architecture**
+Evaluate whether the request is architecturally appropriate and aligned with cloud-native principles, including scalability, resilience, adaptability, and automation. A quota increase should not be the default answer if a better solution 
+5. **Validate right-sizing**
 Determine whether the requested quota is properly sized. In many cases, clients overestimated their needs and ask for extra disk space or other quota just in case. The request should be large enough to support the target workload, but not oversized without evidence.
-5. **Assessed the architecture**
-Evaluate whether the request is architecturally appropriate and aligned with cloud-native principles, 
 6. **Make the decision**
 Based on the findings, decide whether to approve, adjust, delay, reject, or replace the request with a better solution. The goal is to satisfy the request, preserve platform stability and allocate capacity responsibly.
 
