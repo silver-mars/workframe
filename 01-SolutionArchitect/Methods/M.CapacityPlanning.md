@@ -14,7 +14,7 @@ preconditions:
 ---
 # Capacity planning and quota management
 ## What it is
-This approach uses quotas in Openstack, or in another virtualized/cloud environment, to prevent resource exhaustion and maintain sustainable platform capacity.
+This approach uses quotas in OpenStack, VMWare, or in another virtualized/cloud environment, to prevent resource exhaustion and maintain sustainable platform capacity.
 ## Why it matters
 Quota management here is a decision framework that helps prioritize requests, reduce unnecessary context switching and ensure that capacity is allocated according to business impact, architectural fit, and actual demand.
 ## Priority model
@@ -36,6 +36,3 @@ Evaluate whether the request is architecturally appropriate and aligned with clo
 Determine whether the requested quota is properly sized. In many cases, clients overestimated their needs and ask for extra disk space or other quota just in case. The request should be large enough to support the target workload, but not oversized without evidence.
 6. **Make the decision**
 Based on the findings, decide whether to approve, adjust, delay, reject, or replace the request with a better solution. The goal is to satisfy the request, preserve platform stability and allocate capacity responsibly.
-
-
-The priority also depends on the target environment, such as dev, staging, or production. 
