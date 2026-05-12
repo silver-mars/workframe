@@ -14,11 +14,11 @@ preconditions:
 ---
 # Capacity planning and quota management
 ## What it is
-This approach uses quotas in OpenStack, VMware, or another virtualized/cloud environment to prevent resource exhaustion and maintain sustainable platform capacity.
+This approach uses quotas in OpenStack, VMware, or similar virtualized and cloud environments to prevent resource exhaustion and maintain sustainable platform capacity.
 ## Why it matters
 Quota management here is a decision framework that helps prioritize requests, reduce unnecessary context switching, and ensure that capacity is allocated according to business impact, architectural fit, and actual demand.
 ## Priority model
-Requests should be classified as routine, important or urgent.
+Requests should be classified as routine, important, or urgent.
 * **Routine** means that the request is not time-sensitive, so the decision can be made later. For example, this could be a quota request for load testing scheduled to run in three weeks.
 * **Important** means that current capacity is insufficient, but the situation doesn't require immediate interruption of ongoing work. In this case, you need to estimate when the required capacity will become available or take action to reclaim existing capacity. For example, this may involve running fstrim to reclaim disk space.
 * **Urgent** means that the request requires immediate attention and forces you to interrupt your current work. This usually applies to incidents, production-impacting changes, or exceptional high priority deliveries that cannot be delayed.
