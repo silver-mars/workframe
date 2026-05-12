@@ -14,7 +14,7 @@ preconditions:
 ---
 # Capacity planning and quota management
 ## What it is
-This approach uses quotas in OpenStack, VMware, or in another virtualized/cloud environment, to prevent resource exhaustion and maintain sustainable platform capacity.
+This approach uses quotas in OpenStack, VMware, or another virtualized/cloud environment, to prevent resource exhaustion and maintain sustainable platform capacity.
 ## Why it matters
 Quota management here is a decision framework that helps prioritize requests, reduce unnecessary context switching and ensure that capacity is allocated according to business impact, architectural fit, and actual demand.
 ## Priority model
