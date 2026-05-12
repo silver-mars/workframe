@@ -28,7 +28,7 @@ This classification is needed to reduce context switching. Virtual machines spen
 Define the system's criticality class first. The priority also depends on the target environment, such as development, staging, or production, because the same request may be treated differently depending on where the workload runs.
 Also identify any additional reason for prioritization, such as a production incident, an emergency cluster update, or a high-priority feature release requested by the CTO.
 2. **Clarify the purpose**
-Ask why additional capacity is needed. Identify what the teams want to add or change, such as a database, a Kubernetes cluster, a load balancer, or additional storage. Then clarify the expected outcome, for example a new feature release, higher traffic tolerance, better database performance, or platform stabilization.
+Ask why additional capacity is needed. Identify what the team want to add or change, such as a database, a Kubernetes cluster, a load balancer, or additional storage. Then clarify the expected outcome, for example a new feature release, higher traffic tolerance, better database performance, or platform stabilization.
 3. **Review current capacity**
 Check current utilization, projected growth, available regional capacity, and quota headroom. This step should confirm whether the request is driven by actual demand, projected growth, or inefficient resource usage.
 4. **Assess the architecture**
