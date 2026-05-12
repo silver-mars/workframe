@@ -30,7 +30,7 @@ Also identify any additional reason for prioritization, such as a production inc
 2. **Clarify the purpose**
 Ask why additional capacity is needed. Identify what the teams want to add or change, such as a database, a Kubernetes cluster, a load balancer, or additional storage. Then clarify the expected outcome, for example a new feature release, higher traffic tolerance, better database performance, or platform stabilization.
 3. **Review current capacity**
-Check current utilization, forecast growth, available regional capacity, and quota headroom. This step should confirm whether the request is driven by actual demand, projected growth, or inefficient resource usage.
+Check current utilization, projected growth, available regional capacity, and quota headroom. This step should confirm whether the request is driven by actual demand, projected growth, or inefficient resource usage.
 4. **Assess the architecture**
 Evaluate whether the request is architecturally appropriate and aligned with cloud-native principles, including scalability, resilience, adaptability, and automation. A quota increase should not be the default answer if a better architectural solution is available.
 5. **Validate right-sizing**
