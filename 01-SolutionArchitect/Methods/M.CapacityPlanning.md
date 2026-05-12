@@ -34,6 +34,6 @@ Check current utilization, projected growth, available regional capacity, and qu
 4. **Assess the architecture**
 Evaluate whether the request is architecturally appropriate and aligned with cloud-native principles, including scalability, resilience, adaptability, and automation. A quota increase should not be the default answer if a better architectural solution is available.
 5. **Validate right-sizing**
-Determine whether the requested quota is properly sized. In many cases, clients often overestimate their needs and ask for extra disk space or other quotas just in case. The request should be large enough to support the target workload, but not oversized without evidence.
+Determine whether the requested quota is properly sized. In many cases, clients overestimate their needs and ask for extra disk space or other quotas just in case. The request should be large enough to support the target workload, but not oversized without evidence.
 6. **Make the decision**
-Based on the findings, decide whether to approve, adjust, delay, reject, or replace the request with a better solution. The goal is to satisfy the request, preserve platform stability and allocate capacity responsibly.
+Based on the findings, decide whether to approve, adjust, delay, reject, or replace the request with a better solution. The goal is to satisfy the request, preserve platform stability, and allocate capacity responsibly.
