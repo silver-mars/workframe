@@ -6,8 +6,8 @@ maturity: M3
 status: Active
 bindsRole: "[R.SolutionArchitect](01-SolutionArchitect/Roles/R.SolutionArchitect.md)"
 rcs:
-  "agency: Predictive"
-  "safety: SC2"
+  - "agency: Predictive"
+  - "safety: SC2"
 preconditions:
   - Access to system requirements and stakeholder context.
   - Understanding of the target system boundary and constraints.
