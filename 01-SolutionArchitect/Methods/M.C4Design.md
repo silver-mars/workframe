@@ -20,4 +20,4 @@ evidence:
   - 
 ---
 # C4 Design as an Architectural Thinking Method
-Architectural design starts with identifying the stakeholders around the system of interests and clarifying their 
+Architectural design starts with identifying the stakeholders around the system of interests and clarifying their roles in shaping requirements, using, operating, integrating, evolving, and governing the system.
