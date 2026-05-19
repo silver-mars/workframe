@@ -2,3 +2,4 @@
 When **information security** is a first-class stakeholder and the target environment is part of critical information infrastructure, the architectural description should include an explicit security viewpoint covering workload runtime controls.
 
 **Stakeholder**: information security.
+**Environment**: critical Information infrastructure with elevated requirements for workload isolation, privilege mobilization, 
