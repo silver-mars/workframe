@@ -4,4 +4,4 @@ When **information security** is a first-class stakeholder and the target enviro
 **Stakeholder**: information security.
 **Environment**: critical Information infrastructure with elevated requirements for workload isolation, privilege mobilization, and post-compromise resilience.
 **Concern**: prevent privilege escalation, reduce writable attack surface, enforce non-root execution, and minimize Linux capabilities.
-**Architectural response**: apply a security context 
+**Architectural response**: apply a security-focused runtime baseline through spec.containers[\*].securityContext, 
