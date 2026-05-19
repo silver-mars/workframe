@@ -3,3 +3,4 @@ When **information security** is a first-class stakeholder and the target enviro
 
 **Stakeholder**: information security.
 **Environment**: critical Information infrastructure with elevated requirements for workload isolation, privilege mobilization, and post-compromise resilience.
+**Concern**: prevent privilege escalation, reduce writable attack surface, enforce non-root 
