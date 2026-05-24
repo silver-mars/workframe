@@ -6,9 +6,9 @@ In Kubernetes-based systems one practical implementation of that viewpoint is th
 **Environment**: critical Information infrastructure with elevated requirements for workload isolation, privilege mobilization, and post-compromise resilience.
 **Concern**: prevent privilege escalation, reduce writable attack surface, enforce non-root execution, and minimize Linux capabilities.
 **Architectural response**: apply a security-focused runtime baseline through spec.containers[\*].securityContext, while keeping pod-level defaults in spec.securityContext where appropriate.
-Decision racioknale
+**Decision rationale**: 
 
-Example snippet
+### Example snippet
 securityContext:
   capabilities:
     drop:
