@@ -5,4 +5,18 @@ In Kubernetes-based systems one practical implementation of that viewpoint is th
 **Stakeholder**: information security.
 **Environment**: critical Information infrastructure with elevated requirements for workload isolation, privilege mobilization, and post-compromise resilience.
 **Concern**: prevent privilege escalation, reduce writable attack surface, enforce non-root execution, and minimize Linux capabilities.
-**Architectural response**: apply a security-focused runtime baseline through spec.containers[\*].securityContext, while keeping pod-level defaults in spec.securityContext where appropriate
+**Architectural response**: apply a security-focused runtime baseline through spec.containers[\*].securityContext, while keeping pod-level defaults in spec.securityContext where appropriate.
+Decision racioknale
+
+Example snippet
+securityContext:
+  capabilities:
+    drop:
+      - ALL
+  runAsUser: 1001
+  runAsGroup: 2000
+  runAsNonRoot: true
+  readOnlyRootFilesystem: true
+  allowPrivilegeEscalation: false
+  seccompProfile:
+    type: RuntimeDefault
