@@ -1,6 +1,6 @@
 # C4 Design Case: Security Viewpoint for critical information infrastructure
 When **information security** is a first-class stakeholder and the target environment is part of critical information infrastructure, the architectural description should include an explicit security viewpoint covering workload runtime controls.
-For Kubernetes-based workloads, this security viewpoint can be expressed throught pod- and container-level securityContext settings, with container-level 
+For Kubernetes-based workloads, this security viewpoint can be expressed throught pod- and container-level securityContext settings, with container-level configuration overriding pod defaults where fields overlap.
 
 **Stakeholder**: information security.
 **Environment**: critical Information infrastructure with elevated requirements for workload isolation, privilege mobilization, and post-compromise resilience.
