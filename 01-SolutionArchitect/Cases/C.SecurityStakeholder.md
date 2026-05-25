@@ -5,7 +5,7 @@ For Kubernetes-based workloads, this security viewpoint can be expressed through
 **Stakeholder**: information security.
 **Environment**: critical information infrastructure with strict expectation for workload isolation, privilege restriction, and resilience after compromise.
 **Concern**: prevent privilege escalation, reduce writable attack surface, enforce non-root execution, and minimize Linux capabilities.
-**Architectural response**: apply a security-focused runtime baseline through spec.containers[\*].securityContext, while keeping pod-level defaults in spec.securityContext where appropriate.
+**Architectural response**: keep shared runtime defaults at pod level, place stricter spec.containers[\*].securityContext, while keeping pod-level defaults in spec.securityContext where appropriate.
 ### Example snippet
 securityContext:
   capabilities:
