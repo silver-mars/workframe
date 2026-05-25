@@ -3,7 +3,7 @@ When **information security** is a first-class stakeholder and the target enviro
 For Kubernetes-based workloads, this security viewpoint can be expressed throught pod- and container-level securityContext settings, with container-level configuration overriding pod defaults where fields overlap.
 
 **Stakeholder**: information security.
-**Environment**: critical information infrastructure with strict expectation for workload isolation, privilege escalation  and post-compromise resilience.
+**Environment**: critical information infrastructure with strict expectation for workload isolation, privilege restriction, and resilience after compromise.
 **Concern**: prevent privilege escalation, reduce writable attack surface, enforce non-root execution, and minimize Linux capabilities.
 **Architectural response**: apply a security-focused runtime baseline through spec.containers[\*].securityContext, while keeping pod-level defaults in spec.securityContext where appropriate.
 ### Example snippet
