@@ -7,6 +7,8 @@ For Kubernetes-based workloads, this security viewpoint can be expressed through
 **Concern**: prevent privilege escalation, reduce writable attack surface, enforce non-root execution, and minimize Linux capabilities.
 **Architectural response**: keep shared runtime defaults at pod level, place stricter workload-specific controls at container level and treat policy enforcement as a separate architectural concern.
 ### Example container settings
+
+```yaml
 securityContext:
   capabilities:
     drop:
@@ -18,5 +20,9 @@ securityContext:
   allowPrivilegeEscalation: false
   seccompProfile:
     type: RuntimeDefault
+securityContext:
+  capabilities:
+    
+```
 
 This baseline also changes how the workload is built, tested, debugged, and operated: teams must assume non-root execution, a read-only file system, limited capabilities, and reduced container mutability, so troubleshooting should rely on logs, metrics, traces, crash diagnostics, and controlled debug mechanisms rather than ad-hoc changes inside running containers.
