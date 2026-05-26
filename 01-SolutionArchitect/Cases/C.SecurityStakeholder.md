@@ -19,4 +19,4 @@ securityContext:
   seccompProfile:
     type: RuntimeDefault
 
-This baseline also changes how the workload built, tested, debugged, and operated: team must assume non-root execution, a read-only file system, limited capabilities, and reduced container mutability, so troubleshooting should rely on logs, metrics, traces, crash diagnostics, 
+This baseline also changes how the workload built, tested, debugged, and operated: team must assume non-root execution, a read-only file system, limited capabilities, and reduced container mutability, so troubleshooting should rely on logs, metrics, traces, crash diagnostics, and controlled debug mechanisms rather than ad-hoc changes inside running containers.
