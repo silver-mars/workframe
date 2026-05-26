@@ -19,4 +19,4 @@ securityContext:
   seccompProfile:
     type: RuntimeDefault
 
-This baseline also changes how the 
+This baseline also changes how the workload built, tested, debugged, and operated: team must assume non-root execution, 
