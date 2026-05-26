@@ -20,9 +20,6 @@ securityContext:
   allowPrivilegeEscalation: false
   seccompProfile:
     type: RuntimeDefault
-securityContext:
-  capabilities:
-    
 ```
 
 This baseline also changes how the workload is built, tested, debugged, and operated: teams must assume non-root execution, a read-only file system, limited capabilities, and reduced container mutability, so troubleshooting should rely on logs, metrics, traces, crash diagnostics, and controlled debug mechanisms rather than ad-hoc changes inside running containers.
