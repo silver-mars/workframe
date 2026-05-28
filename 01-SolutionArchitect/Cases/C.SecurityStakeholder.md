@@ -5,7 +5,7 @@ For Kubernetes-based workloads, this security viewpoint can be expressed through
 **Stakeholder**: information security.
 **Environment**: critical information infrastructure with strict expectations for workload isolation, privilege restriction, and resilience after compromise.
 **Concern**: prevent privilege escalation, reduce writable attack surface, enforce non-root execution, and minimize Linux capabilities.
-**Architectural response**: keep shared runtime defaults at pod level, place stricter workload-specific controls at container level and treat policy enforcement as a separate architectural concern.
+**Architectural response**: define shared runtime defaults at pod level, apply stricter workload-specific controls at container level, and treat policy enforcement as a separate architectural concern.
 ### Example: workload-level implementation of the runtime security baseline
 At manifest level, this policy is expressed through securityContext settings, while enforcement and consistency belong to the wider platform governance model.
 ```yaml
