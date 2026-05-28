@@ -7,7 +7,7 @@ For Kubernetes-based workloads, this security viewpoint can be expressed through
 **Concern**: prevent privilege escalation, reduce writable attack surface, enforce non-root execution, and minimize Linux capabilities.
 **Architectural response**: keep shared runtime defaults at pod level, place stricter workload-specific controls at container level and treat policy enforcement as a separate architectural concern.
 ### Example: workload-level implementation of the runtime security baseline
-At manifest level, this policy is expressed through securityContext settings, while
+At manifest level, this policy is expressed through securityContext settings, while enforcement and consistency belong to the wider
 ```yaml
 securityContext:
   capabilities:
