@@ -9,7 +9,7 @@ For Kubernetes-based workloads, this security viewpoint can be expressed through
 ### Architectural implications
 Runtime hardening must shape more than the deployment manifest. It must also shape how workloads are packaged, validated, observed, debugged, supported, and evolved over time, so that security controls improve resilience without undermining operability, supportability, or system evolvability.
 ### Example: workload-level implementation of the runtime security baseline
-At manifest level, this policy appears as securityContext settings, while platform policy 
+At manifest level, this policy appears as securityContext settings, while platform governance is responsible for enforcing it consistently across workloads.
 ```yaml
 securityContext:
   capabilities:
