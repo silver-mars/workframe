@@ -7,7 +7,7 @@ For Kubernetes-based workloads, this security viewpoint can be expressed through
 **Concern**: prevent privilege escalation, reduce writable attack surface, enforce non-root execution, and minimize Linux capabilities.
 **Architectural response**: define shared runtime defaults at pod level, apply stricter workload-specific controls at container level, and treat policy enforcement as a separate architectural concern.
 ### Architectural implications
-Runtime hardening must shape more than the deployment manifest. It must also shape how workload are packaged, validated, observed, debugged, supported, and evolved over time, so that security controls improve resilience without undermining opera
+Runtime hardening must shape more than the deployment manifest. It must also shape how workload are packaged, validated, observed, debugged, supported, and evolved over time, so that security controls improve resilience without undermining operability, supportability, or system evolvability.
 ### Example: workload-level implementation of the runtime security baseline
 At manifest level, this policy is expressed through securityContext settings, while enforcement and consistency belong to the wider platform governance model.
 ```yaml
