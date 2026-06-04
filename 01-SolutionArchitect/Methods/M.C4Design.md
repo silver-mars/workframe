@@ -22,7 +22,7 @@ evidence:
 # C4 Design as an Architectural Thinking Method
 Architectural design starts with identifying the stakeholders around the system of interests and clarifying their roles in shaping requirements, using, operating, integrating, evolving, and governing the system.
 These stakeholders' concerns, constraints, expectations, and success criteria establish the foundation for architectural decisions, since the system's viability, fitness for purpose, and operational resilience depends in how effectively the architecture responds to them, consistent with [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/cm/)
-From there, C4 design serves as a disciplined 
+From there, C4 design serves as a disciplined way to structure 
 
 
 ## Example cases
