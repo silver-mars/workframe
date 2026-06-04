@@ -26,4 +26,4 @@ These stakeholders' concerns, constraints, expectations, and success criteria es
 
 
 ## Example cases
-[C.SecurityStakeholder](C.SecurityStakeholder.md)]
+[Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
