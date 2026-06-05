@@ -25,7 +25,7 @@ These stakeholders' concerns, constraints, expectations, and success criteria es
 From there, C4 design serves as a disciplined way to structure architectural thinking across multiple levels of abstractions.
 It helps define the system of interest, establish its boundaries, separate internal structure from external dependencies, and present the architecture through views suited to different audiences.
 It explains why boundaries are drawn in a particular way, which containers carry operational responsibility, where integration seams and bottlenecks emerge, and which elements are most likely to shape future architectural change.
-For that reason, 
+For that reason, the value of C4 design lies in its ability to support systematic reasoning about decomposition, 
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
