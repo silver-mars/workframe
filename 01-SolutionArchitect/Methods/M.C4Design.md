@@ -24,7 +24,8 @@ Architectural design starts with identifying the stakeholders around the system 
 These stakeholders' concerns, constraints, expectations, and success criteria establish the foundation for architectural decisions, since the system's viability, fitness for purpose, and operational resilience depends in how effectively the architecture responds to them, consistent with [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/cm/)
 From there, C4 design serves as a disciplined way to structure architectural thinking across multiple levels of abstractions.
 It helps define the system of interest, establish its boundaries, separate internal structure from external dependencies, and present the architecture through views suited to different audiences.
-It explains why boundaries are drawn in a particular way, which containers carry operational responsibility, where integration seams and bottleneck emerge
+It explains why boundaries are drawn in a particular way, which containers carry operational responsibility, where integration seams and bottlenecks emerge, and which elements are most likely to shape future architectural change.
+For that reason, 
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
