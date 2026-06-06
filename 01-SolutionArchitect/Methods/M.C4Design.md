@@ -26,7 +26,7 @@ From there, C4 design serves as a disciplined way to structure architectural thi
 It helps define the system of interest, establish its boundaries, separate internal structure from external dependencies, and present the architecture through views suited to different audiences.
 It explains why boundaries are drawn in a particular way, which containers carry operational responsibility, where integration seams and bottlenecks emerge, and which elements are most likely to shape future architectural change.
 For that reason, the value of C4 design lies in its ability to support systematic reasoning about decomposition, responsibilities, constraints, and evolvability.
-Used well, it becomes a practical instrument for communication and architectural decision support, helping connect business intent, technical structure, and operational reality.
+Used well, it becomes a practical method for communication, trade-off analysis, and architectural decision support, helping connect business intent, technical structure, and operational reality.
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
