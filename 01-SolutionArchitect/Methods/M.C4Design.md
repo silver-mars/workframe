@@ -38,7 +38,7 @@ For that reason, the value of C4 design lies in its ability to support systemati
 Used well, it becomes a practical method for communication, trade-off analysis, and architectural decision support, helping connect business intent, technical structure, and operational reality.
 
 ## Inputs to clarify
-Before modeling begins
+Before modeling begins, clarify the following:
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
