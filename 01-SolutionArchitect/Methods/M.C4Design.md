@@ -30,13 +30,15 @@ A good C4-based design process helps turn those concerns into clear system bound
 Use this method when a system must be designed, reviewed, modernized, explained, or compared at the architectural level.
 It is especially useful when the system has unclear boundaries, multiple stakeholders, significant integration points, operational constraints, or competing solution directions.
 
-
 Identifying the stakeholders around the system of interest and clarifying their roles in shaping requirements, using, operating, integrating, e
 
 It helps define the system of interest, establish its boundaries, separate internal structure from external dependencies, and present the architecture through views suited to different audiences.
 It explains why boundaries are drawn in a particular way, which containers carry operational responsibility, where integration seams and bottlenecks emerge, and which elements are most likely to shape future architectural change.
 For that reason, the value of C4 design lies in its ability to support systematic reasoning about decomposition, responsibilities, constraints, and evolvability.
 Used well, it becomes a practical method for communication, trade-off analysis, and architectural decision support, helping connect business intent, technical structure, and operational reality.
+
+## Inputs to clarify
+Before modeling begins
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
