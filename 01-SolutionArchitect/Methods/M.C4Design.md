@@ -31,8 +31,7 @@ Use this method when a system must be designed, reviewed, modernized, explained,
 It is especially useful when the system has unclear boundaries, multiple stakeholders, significant integration points, operational constraints, or competing solution directions.
 
 
-Identifying the stakeholders around the system of interest and clarifying their roles in shaping requirements, using, operating, integrating, evolving, and governing the system.
-These stakeholders' concerns, constraints, expectations, and success criteria establish the foundation for architectural decisions, since the system's viability, fitness for purpose, and operational resilience depends on how effectively the architecture responds to them, consistent with [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/cm/).
+Identifying the stakeholders around the system of interest and clarifying their roles in shaping requirements, using, operating, integrating, e
 
 It helps define the system of interest, establish its boundaries, separate internal structure from external dependencies, and present the architecture through views suited to different audiences.
 It explains why boundaries are drawn in a particular way, which containers carry operational responsibility, where integration seams and bottlenecks emerge, and which elements are most likely to shape future architectural change.
