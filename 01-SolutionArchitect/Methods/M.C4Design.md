@@ -47,6 +47,8 @@ Before modeling begins, clarify the following:
 - External systems, dependencies, and likely change drivers.
 ## Working principle
 - Stakeholder concerns come before structural decomposition.
-- System boundaries should be explicit 
+- System boundaries should be explicit before internal structure is refined.
+- Different audiences need different views.
+- 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
