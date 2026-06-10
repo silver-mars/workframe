@@ -50,5 +50,7 @@ Before modeling begins, clarify the following:
 - System boundaries should be explicit before internal structure is refined.
 - Different audiences need different views.
 - Architectural descriptions should reveal responsibilities, dependencies, constraints, and likely change pressure.
+- C4 diagrams are used to support reasoning and communication, not as an end in themselves.
+
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
