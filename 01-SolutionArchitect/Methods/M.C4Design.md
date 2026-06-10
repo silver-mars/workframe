@@ -43,6 +43,7 @@ Before modeling begins, clarify the following:
 - The bounded context of the design discussion.
 - The relevant stakeholders and their concerns.
 - Business goals, constraints, and success criteria.
-- Key quality attributes such as scalability, resilience,
+- Key quality attributes such as scalability, resilience, security, operability, and evolvability.
+- 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
