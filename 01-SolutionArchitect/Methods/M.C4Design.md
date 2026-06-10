@@ -49,6 +49,6 @@ Before modeling begins, clarify the following:
 - Stakeholder concerns come before structural decomposition.
 - System boundaries should be explicit before internal structure is refined.
 - Different audiences need different views.
-- 
+- Architectural descriptions should reveal responsibilities, dependencies, constraints, and likely change pressure.
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
