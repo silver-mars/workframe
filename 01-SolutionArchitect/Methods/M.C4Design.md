@@ -44,6 +44,7 @@ Before modeling begins, clarify the following:
 - The relevant stakeholders and their concerns.
 - Business goals, constraints, and success criteria.
 - Key quality attributes such as scalability, resilience, security, operability, and evolvability.
+- External systems, dependencies, and likely change drivers.
 - 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
