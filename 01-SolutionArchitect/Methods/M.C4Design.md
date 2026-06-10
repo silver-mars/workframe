@@ -46,6 +46,7 @@ Before modeling begins, clarify the following:
 - Key quality attributes such as scalability, resilience, security, operability, and evolvability.
 - External systems, dependencies, and likely change drivers.
 ## Working principle
-- S
+- Stakeholder concerns come before structural decomposition.
+- System boundaries should be explicit 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
