@@ -39,6 +39,7 @@ Used well, it becomes a practical method for communication, trade-off analysis, 
 
 ## Inputs to clarify
 Before modeling begins, clarify the following:
-
+- The system of interest.
+- The bounded context 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
