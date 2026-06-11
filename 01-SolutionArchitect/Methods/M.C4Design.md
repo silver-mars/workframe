@@ -60,6 +60,8 @@ The design effort should focus first on what is most likely to affect architectu
 - Operational fragility.
 - Security-sensitive elements.
 - Likely scaling bottlenecks.
-- Areas o
+- Areas of expected future change.
+## Solution option framing
+
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
