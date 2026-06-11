@@ -62,6 +62,6 @@ The design effort should focus first on what is most likely to affect architectu
 - Likely scaling bottlenecks.
 - Areas of expected future change.
 ## Solution option framing
-
+Once stakeholder concerns and requirements are classified, do not converge immediately on a single target design.
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
