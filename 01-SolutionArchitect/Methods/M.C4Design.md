@@ -56,6 +56,10 @@ Before modeling begins, clarify the following:
 The design effort should focus first on what is most likely to affect architectural viability:
 - Boundary ambiguity.
 - Responsibility ambiguity.
-- High-ris
+- High-risk integration.
+- Operational fragility.
+- Security-sensitive elements.
+- Likely scaling bottlenecks.
+- Areas o
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
