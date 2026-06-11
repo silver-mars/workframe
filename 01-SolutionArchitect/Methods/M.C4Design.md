@@ -53,5 +53,6 @@ Before modeling begins, clarify the following:
 - C4 diagrams are used to support reasoning and communication, not as an end in themselves.
 
 ## Priority of architectural attention
+The design effort should focus first on what is most 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
