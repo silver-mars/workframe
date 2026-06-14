@@ -68,7 +68,8 @@ Each candidate should include a short pre-experimental rationale:
 - Why this option could plausibly satisfy the key concern.
 - Which quality attributes it is expected to strengthen.
 - Which trade-off it introduces.
-- Which uncertainties or ris
+- Which uncertainties or risks still need validation.
+- Under which conditions it should remains viable
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
