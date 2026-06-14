@@ -69,7 +69,9 @@ Each candidate should include a short pre-experimental rationale:
 - Which quality attributes it is expected to strengthen.
 - Which trade-off it introduces.
 - Which uncertainties or risks still need validation.
-- Under which conditions it should remains viable
+- Under which conditions it should remains viable or be rejected.
+## Working workflow
+
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
