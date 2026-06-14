@@ -71,7 +71,7 @@ Each candidate should include a short pre-experimental rationale:
 - Which uncertainties or risks still need validation.
 - Under which conditions it should remains viable or be rejected.
 ## Working workflow
-
+1. Define the 
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
