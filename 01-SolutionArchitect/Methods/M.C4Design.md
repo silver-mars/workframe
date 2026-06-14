@@ -65,7 +65,8 @@ The design effort should focus first on what is most likely to affect architectu
 Once stakeholder concerns and requirements are classified, do not converge immediately on a single target design.
 Instead, develop two or three architecturally viable candidate solutions that differ by their core design idea, such as decomposition strategy, integration style, data ownership model, or operational model.
 Each candidate should include a short pre-experimental rationale:
-- Why this option is 
+- Why this option could plausibly satisfy the key concern.
+- Which quality attributes it is 
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
