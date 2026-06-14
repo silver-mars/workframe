@@ -66,7 +66,9 @@ Once stakeholder concerns and requirements are classified, do not converge immed
 Instead, develop two or three architecturally viable candidate solutions that differ by their core design idea, such as decomposition strategy, integration style, data ownership model, or operational model.
 Each candidate should include a short pre-experimental rationale:
 - Why this option could plausibly satisfy the key concern.
-- Which quality attributes it is 
+- Which quality attributes it is expected to strengthen.
+- Which trade-off it introduces.
+- Which uncertainties or ris
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
