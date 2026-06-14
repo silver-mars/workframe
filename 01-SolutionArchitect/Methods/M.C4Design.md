@@ -71,8 +71,9 @@ Each candidate should include a short pre-experimental rationale:
 - Which uncertainties or risks still need validation.
 - Under which conditions it should remains viable or be rejected.
 ## Working workflow
-1. Define the system of interest.
-Clarify what is inside the architecture scope and what belongs 
+1. **Define the system of interest.**
+Clarify what is inside the architecture scope and what belongs to the surrounding environment.
+2. Identify stakeholders and their concerns
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
