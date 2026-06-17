@@ -74,6 +74,7 @@ Each candidate should include a short pre-experimental rationale:
 1. **Define the system of interest.**
 Clarify what is inside the architecture scope and what belongs to the surrounding environment.
 2. Identify stakeholders and their concerns
-List the stakeholders
+List the stakeholders who shape, use, operate, integrate, govern, or evolve the system, and make their concerns explicit.
+3. 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
