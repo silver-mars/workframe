@@ -75,7 +75,9 @@ Each candidate should include a short pre-experimental rationale:
 Clarify what is inside the architecture scope and what belongs to the surrounding environment.
 2. **Identify stakeholders and their concerns**
 List the stakeholders who shape, use, operate, integrate, govern, or evolve the system, and make their concerns explicit.
-3. Establish architectural boundaries
-Define the system boundary, major external dependencies, upstream and downstream relations, and the main areas of environmental couplin
+3. **Establish architectural boundaries**
+Define the system boundary, major external dependencies, upstream and downstream relations, and the main areas of environmental coupling.
+4. Frame candidate solutions
+Develop two or three viable 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
