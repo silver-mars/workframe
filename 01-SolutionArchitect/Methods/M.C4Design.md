@@ -79,6 +79,8 @@ List the stakeholders who shape, use, operate, integrate, govern, or evolve the 
 Define the system boundary, major external dependencies, upstream and downstream relations, and the main areas of environmental coupling.
 4. **Frame candidate solutions**
 Develop two or three viable architectural directions before converging on one target design.
+5. Model the context
+Create a context-level view that shows
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
