@@ -76,6 +76,6 @@ Clarify what is inside the architecture scope and what belongs to the surroundin
 2. **Identify stakeholders and their concerns**
 List the stakeholders who shape, use, operate, integrate, govern, or evolve the system, and make their concerns explicit.
 3. Establish architectural boundaries
-Define the system boundary, major external
+Define the system boundary, major external dependencies, upstream and downstream relations, and the main areas of environmental couplin
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
