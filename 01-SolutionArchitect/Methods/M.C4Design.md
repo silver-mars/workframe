@@ -81,8 +81,10 @@ Define the system boundary, major external dependencies, upstream and downstream
 Develop two or three viable architectural directions before converging on one target design.
 5. **Model the context**
 Create a context-level view that shows the system of interest, its environment, and the most important interactions.
-6. Model the containers
-Decompose the chosen candidate or compared candidates into major execution, storage, and 
+6. **Model the containers**
+Decompose the chosen candidate or compared candidates into major execution, storage, and responsibility-bearing units.
+7. Refine critical components where needed
+Go deeper only where container 
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
