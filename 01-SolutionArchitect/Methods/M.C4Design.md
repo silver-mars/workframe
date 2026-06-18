@@ -90,7 +90,7 @@ Show where operational responsibility sits, where integration seams exist, where
 9. **Tailor views to audience**
 Adjust the explanation for sponsors, engineers, operators, security stakeholders, or platform teams without changing the underlying architectural meaning.
 10. Converge on a target solution
-
+Approve, combine, narrow, or reject candidate solutions based on architectural fit, trade-offs, 
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
