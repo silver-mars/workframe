@@ -86,7 +86,7 @@ Decompose the chosen candidate or compared candidates into major execution, stor
 7. **Refine critical components where needed**
 Go deeper only where a container carries architectural risk, high complexity, significant coupling, or important decision weight.
 8. Expose operational and integration consequences
-Show where operational sits
+Show where operational responsibility sits, where integration seams exist, where bottleneck may 
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
