@@ -85,8 +85,9 @@ Create a context-level view that shows the system of interest, its environment, 
 Decompose the chosen candidate or compared candidates into major execution, storage, and responsibility-bearing units.
 7. **Refine critical components where needed**
 Go deeper only where a container carries architectural risk, high complexity, significant coupling, or important decision weight.
-8. Expose operational and integration consequences
-Show where operational responsibility sits, where integration seams exist, where bottleneck may 
+8. **Expose operational and integration consequences**
+Show where operational responsibility sits, where integration seams exist, where bottlenecks may emerge, and where change pressure is likely to accumulate.
+9. Tailor views to audience.
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
