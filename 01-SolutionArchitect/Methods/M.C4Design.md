@@ -97,6 +97,7 @@ A good run of this method should produce:
 - A clear definition of the system of interest.
 - A stakeholder-aware architectural framing.
 - A bounded architectural context.
-- Two or three candidate 
+- Two or three candidate solution directions when the design space is still open.
+- Context, containers and 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
