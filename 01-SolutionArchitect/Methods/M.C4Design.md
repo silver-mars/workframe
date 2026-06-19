@@ -101,6 +101,6 @@ A good run of this method should produce:
 - Context, container and selective component.
 - A clearer understanding of responsibilities, dependencies, bottlenecks, and likely evolution paths.
 - A reasoned basis for choosing or rejecting a target solution.
-- 
+- A bridge to further design work, ADRs, validation activities, 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
