@@ -95,6 +95,8 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 ## Outputs
 A good run of this method should produce:
 - A clear definition of the system of interest.
-- A stakeholder-aware 
+- A stakeholder-aware architectural framing.
+- A bounded architectural context.
+- Two or three candidate 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
