@@ -98,6 +98,7 @@ A good run of this method should produce:
 - A stakeholder-aware architectural framing.
 - A bounded architectural context.
 - Two or three candidate solution directions when the design space is still open.
-- Context, containers and 
+- Context, container and selective component.
+- A clearer understanding 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
