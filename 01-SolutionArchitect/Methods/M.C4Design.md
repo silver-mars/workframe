@@ -99,6 +99,7 @@ A good run of this method should produce:
 - A bounded architectural context.
 - Two or three candidate solution directions when the design space is still open.
 - Context, container and selective component.
-- A clearer understanding of responsibilities, dependencies, bottlenecks, and likely
+- A clearer understanding of responsibilities, dependencies, bottlenecks, and likely evolution paths.
+- 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
