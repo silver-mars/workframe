@@ -93,6 +93,8 @@ Adjust the explanation for sponsors, engineers, operators, security stakeholders
 Approve, combine, narrow, or reject candidate solutions based on architectural fit, trade-offs, and remaining uncertainty.
 
 ## Outputs
-A good run of this method
+A good run of this method should produce:
+- A clear definition of the system of interest.
+- A stakeholder-aware 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
