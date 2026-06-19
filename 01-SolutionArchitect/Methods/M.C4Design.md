@@ -100,6 +100,6 @@ A good run of this method should produce:
 - Two or three candidate solution directions when the design space is still open.
 - Context, container and selective component.
 - A clearer understanding of responsibilities, dependencies, bottlenecks, and likely evolution paths.
-- 
+- A reason
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
