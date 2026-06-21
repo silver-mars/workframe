@@ -45,6 +45,7 @@ Before modeling begins, clarify the following:
 - System boundaries should be explicit before internal structure is refined.
 - Different audiences need different views.
 - Architectural descriptions should reveal responsibilities, dependencies, constraints, and likely change pressure.
+- Design attention should focus first
 - C4 diagrams are used to support reasoning and communication, not as an end in themselves.
 
 ## Priority of architectural attention
