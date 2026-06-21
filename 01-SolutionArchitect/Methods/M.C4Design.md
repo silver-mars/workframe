@@ -28,7 +28,7 @@ Architectural decisions are shaped by the concerns of the stakeholders who use, 
 A good C4-based design process helps turn those concerns into clear system boundaries, responsibility structures, integration decisions, and evolution paths, in line with the perspectives of [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/cm/).
 
 Used well, C4 helps define the system of interest, establish its boundaries, separate internal structure from external dependencies, and present the architecture through views suited to different audiences.
-It supports
+It supports 
 ## When to use it
 Use this method when a system must be designed, reviewed, modernized, explained, or compared at the architectural level.
 It is especially useful when the system has unclear boundaries, multiple stakeholders, significant integration points, operational constraints, or competing solution directions.
