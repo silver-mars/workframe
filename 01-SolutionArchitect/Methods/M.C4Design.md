@@ -51,11 +51,11 @@ Before modeling begins, clarify the following:
 Once stakeholder concerns and requirements are clarified, do not converge immediately on a single target design.
 Instead, develop two or three architecturally viable candidate solutions that differ by their core design idea, such as decomposition strategy, integration style, data ownership model, or operational model.
 Each candidate should include a short pre-experimental rationale:
-- Why this option could plausibly satisfy the key concern.
+- Why this option could plausibly satisfy the key concerns.
 - Which quality attributes it is expected to strengthen.
-- Which trade-off it introduces.
+- Which trade-offs it introduces.
 - Which uncertainties or risks still need validation.
-- Under which conditions it should remains viable or be rejected.
+- Under which conditions it should remain viable or be rejected.
 ## Working workflow
 1. **Define the system of interest**
 Clarify what is inside the architecture scope and what belongs to the surrounding environment.
