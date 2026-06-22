@@ -48,7 +48,7 @@ Before modeling begins, clarify the following:
 - Design attention should focus first on boundary ambiguity, responsibility ambiguity, high-risk integrations, operational fragility, scaling bottlenecks, and likely change areas.
 - C4 diagrams are used to support reasoning and communication, not as an end in themselves.
 ## Solution option framing
-Once stakeholder concerns and requirements are classified, do not converge immediately on a single target design.
+Once stakeholder concerns and requirements are clarified, do not converge immediately on a single target design.
 Instead, develop two or three architecturally viable candidate solutions that differ by their core design idea, such as decomposition strategy, integration style, data ownership model, or operational model.
 Each candidate should include a short pre-experimental rationale:
 - Why this option could plausibly satisfy the key concern.
