@@ -45,7 +45,7 @@ Before modeling begins, clarify the following:
 - System boundaries should be explicit before internal structure is refined.
 - Different audiences need different views.
 - Architectural descriptions should reveal responsibilities, dependencies, constraints, and likely change pressure.
-- Design attention should focus first on boundary ambiguity, responsibility ambiguity, high-risk integrations, 
+- Design attention should focus first on boundary ambiguity, responsibility ambiguity, high-risk integrations, operational fragility, scaling bottlenecks, and likely change areas.
 - C4 diagrams are used to support reasoning and communication, not as an end in themselves.
 ## Solution option framing
 Once stakeholder concerns and requirements are classified, do not converge immediately on a single target design.
