@@ -47,7 +47,6 @@ Before modeling begins, clarify the following:
 - Architectural descriptions should reveal responsibilities, dependencies, constraints, and likely change pressure.
 - Design attention should focus first
 - C4 diagrams are used to support reasoning and communication, not as an end in themselves.
-
 ## Priority of architectural attention
 The design effort should focus first on what is most likely to affect architectural viability:
 - Boundary ambiguity.
@@ -87,7 +86,6 @@ Show where operational responsibility sits, where integration seams exist, where
 Adjust the explanation for sponsors, engineers, operators, security stakeholders, or platform teams without changing the underlying architectural meaning.
 10. **Converge on a target solution**
 Approve, combine, narrow, or reject candidate solutions based on architectural fit, trade-offs, and remaining uncertainty.
-
 ## Outputs
 A good run of this method should produce:
 - A clear definition of the system of interest.
