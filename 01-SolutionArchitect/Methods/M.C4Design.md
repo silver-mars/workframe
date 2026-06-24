@@ -56,7 +56,7 @@ Each candidate should include a short pre-experimental rationale:
 - Which trade-offs it introduces.
 - Which uncertainties or risks still need validation.
 - Under which conditions it should remain viable or be rejected.
-## Working workflow
+## Design workflow
 1. **Define the system of interest**
 Clarify what is inside the architecture scope and what belongs to the surrounding environment.
 2. **Identify stakeholders and their concerns**
