@@ -1,5 +1,6 @@
-# Case: from security concern to U
-
+# Case: from Security Concern to UAT readiness
+## Context
+This case concerns a 
 
 
 When **information security** is a first-class stakeholder and the target environment is part of critical information infrastructure, the architectural description should include an explicit security viewpoint covering workload runtime controls.
