@@ -1,7 +1,7 @@
 # Case: from Security Concern to UAT readiness
 ## Context
 This case concerns a Kubernetes-hosted application in a critical infrastructure environment, where runtime security requirements were treated as a first-class architectural 
-## Stakeholders
+## Stakeholder
 
 
 
