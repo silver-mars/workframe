@@ -1,6 +1,7 @@
 # From Security Concern to UAT readiness: an architecture case beyond diagrams
 ## Context
-This case covers a Kubernetes-hosted application preparing for user acceptance testing in an environment with strict runtime security 
+This case covers a Kubernetes-hosted application preparing for user acceptance testing in an environment with strict runtime security expectations.
+The delivery scope included workload deployment, manifest preparation, and operational readines 
 ## Stakeholder
 
 
