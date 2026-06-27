@@ -1,6 +1,6 @@
 # From Security Concern to UAT readiness: an architecture case beyond diagrams
 ## Context
-This case covers a Kubernetes-hosted application in a critical infrastructure environment, where runtime security requirements were treated as a first-class architectural 
+This case covers a Kubernetes-hosted application preparing for user acceptance testing in an environment with strict runtime security 
 ## Stakeholder
 
 
