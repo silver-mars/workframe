@@ -3,6 +3,8 @@
 This case covers a Kubernetes-hosted application preparing for user acceptance testing in an environment with strict runtime security expectations.
 The delivery scope included workload deployment, manifest preparation, and operational readiness for support and platform teams.
 ## Stakeholder concern
+Information security set one of the primary concern for this case.
+
 
 
 
