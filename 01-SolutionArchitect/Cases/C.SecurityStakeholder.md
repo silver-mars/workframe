@@ -4,7 +4,7 @@ This case covers a Kubernetes-hosted application preparing for user acceptance t
 The delivery scope included workload deployment, manifest preparation, and operational readiness for support and platform teams.
 ## Stakeholder concern
 Information security set one of the primary concern for this case.
-The concern focused on non-root execution, 
+The concern focused on 
 
 
 
