@@ -8,7 +8,7 @@ The concern focused on security policies, that can be expressed through pod- and
 ## Architectural impact
 These constraints influenced packaging decisions, startup assumptions, writable path handling, logging strategy, debugging approach, and support procedures.
 ## Architectural view used
-A structural view 
+A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the 
 
 
 
