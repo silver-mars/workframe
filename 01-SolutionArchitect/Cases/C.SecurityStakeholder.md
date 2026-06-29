@@ -6,7 +6,7 @@ The delivery scope included workload deployment, manifest preparation, and opera
 Information security set one of the primary concern for this case.
 The concern focused on security policies, that can be expressed through pod- and container-level settings, such as non-root execution, writable surface reduction, privilege restriction, capability minimization, and enforceable runtime controls.
 ## Architectural impact
-
+These constraints influenced packaging decisions, startup assumptions, 
 
 
 
