@@ -5,7 +5,11 @@ The system under discussion was a Kubernetes-hosted application preparing for us
 The delivery scope included workload deployment, manifest preparation, and operational readiness for support and platform teams.
 ## Stakeholder concern
 Information security set one of the primary concern for this case.
-The concern focused on security policies, that can be expressed through pod- and container-level settings, such as non-root execution, writable surface reduction, privilege restriction, capability minimization, and enforceable runtime controls.
+The concern focused on security policies, that can be expressed through pod- and container-level settings.
+The required baseline covered:
+* non-root execution,
+* reduced writable surface,
+* blocked privilege , capability minimization, and enforceable runtime controls.
 ## Architectural impact
 These constraints influenced packaging decisions, startup assumptions, writable path handling, logging strategy, debugging approach, and support procedures.
 ## Architectural view used
