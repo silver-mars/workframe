@@ -14,7 +14,9 @@ The required baseline covered:
 * policy-backed runtime enforcement.
 These requirements entered the project as concrete runtime constraints with direct impact on delivery preparation (?)
 ## Architectural impact
-These constraints influenced packaging decisions, startup assumptions, writable path handling, logging strategy, debugging approach, and support procedures.
+The security baseline shaped several parts of the delivery architecture.
+* 
+decisions, startup assumptions, writable path handling, logging strategy, debugging approach, and support procedures.
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
