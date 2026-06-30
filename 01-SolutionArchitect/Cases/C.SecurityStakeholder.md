@@ -9,7 +9,9 @@ The concern focused on security policies, that can be expressed through pod- and
 The required baseline covered:
 * non-root execution,
 * reduced writable surface,
-* blocked privilege , capability minimization, and enforceable runtime controls.
+* blocked privilege escalation,
+* limited Linux capabilities,
+* policy-backed runtime enforcement.
 ## Architectural impact
 These constraints influenced packaging decisions, startup assumptions, writable path handling, logging strategy, debugging approach, and support procedures.
 ## Architectural view used
