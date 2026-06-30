@@ -1,5 +1,5 @@
 # From Security Concern to UAT readiness: an architecture case beyond diagrams
-
+This case tracks a direct chain from security concern to delivery consequence. Runtime restrictions shaped 
 ## Context
 This case covers a Kubernetes-hosted application preparing for user acceptance testing in an environment with strict runtime security expectations.
 The delivery scope included workload deployment, manifest preparation, and operational readiness for support and platform teams.
