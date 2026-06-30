@@ -12,7 +12,7 @@ The required baseline covered:
 * blocked privilege escalation,
 * limited Linux capabilities,
 * policy-backed runtime enforcement.
-These requirements entered the project as concrete runtime constraints with 
+These requirements entered the project as concrete runtime constraints with direct impact on delivery preparation (?)
 ## Architectural impact
 These constraints influenced packaging decisions, startup assumptions, writable path handling, logging strategy, debugging approach, and support procedures.
 ## Architectural view used
