@@ -21,8 +21,9 @@ It influenced:
 * writable path handling,
 * temporary storage strategy,
 * log collection expectations,
-* debugging and 
-decisions, startup assumptions, writable path handling, logging strategy, debugging approach, and support procedures.
+* debugging and support routines,
+* workload manifest structure.
+This moved 
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
