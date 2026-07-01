@@ -23,7 +23,7 @@ It influenced:
 * log collection expectations,
 * debugging and support routines,
 * workload manifest structure.
-This moved 
+This moved the topic from a platform configuration detail into an architecture and delivery coordination issues.
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
