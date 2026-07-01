@@ -18,7 +18,10 @@ The security baseline shaped several parts of the delivery architecture.
 It influenced:
 * container image assumptions,
 * entrypoint and startup behavior,
-* 
+* writable path handling,
+* temporary storage strategy,
+* log collection expectations,
+* debugging and 
 decisions, startup assumptions, writable path handling, logging strategy, debugging approach, and support procedures.
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
