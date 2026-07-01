@@ -2,9 +2,9 @@
 This case tracks a direct chain from security concern to delivery consequence. Runtime restrictions shaped workload design, manifest preparation, support expectations, and team readiness for user acceptance testing.
 ## Context
 The system under discussion was a Kubernetes-hosted application preparing for user acceptance testing in an environment with strict runtime security expectations.
-The delivery scope covered workload packaging, deployment manifest, platform interaction, and operational readiness for support and platform teams.
+The delivery scope covered workload packaging, deployment manifest, platform interaction, and operational readiness for development, support, and platform teams.
 ## Stakeholder concern
-Information security set one of the primary concern for this case.
+Information security set one of the primary concern for this work.
 The concern focused on security policies, that can be expressed through pod- and container-level settings.
 The required baseline covered:
 * non-root execution,
