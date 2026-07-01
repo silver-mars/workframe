@@ -15,7 +15,10 @@ The required baseline covered:
 These requirements entered the project as concrete runtime constraints with direct impact on delivery preparation (?)
 ## Architectural impact
 The security baseline shaped several parts of the delivery architecture.
-* test
+It influenced:
+* container image assumptions,
+* entrypoint and startup behavior,
+* 
 decisions, startup assumptions, writable path handling, logging strategy, debugging approach, and support procedures.
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
