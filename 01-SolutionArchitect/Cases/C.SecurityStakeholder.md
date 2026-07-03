@@ -34,7 +34,7 @@ This view supported four practical conversations:
 * where operational responsibility changes hands.
 ### Why an additional artifact was needed
 The delivery risk lived in operational interpretation and team readiness.
-The project needed an additional artifact 
+The project needed an additional artifact that translated security constraints into workload preparation, manifest expectations, and support behavior 
 
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
