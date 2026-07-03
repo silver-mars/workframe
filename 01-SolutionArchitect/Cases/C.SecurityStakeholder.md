@@ -30,7 +30,9 @@ A compact structural view helped frame the main boundaries and responsibility sp
 This view supported four practical conversations:
 * where the application sits,
 * where the platform boundary sits,
-* where runtime policy is 
+* where runtime policy is applied,
+* where operational responsibility changes hands.
+
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
