@@ -32,6 +32,8 @@ This view supported four practical conversations:
 * where the platform boundary sits,
 * where runtime policy is applied,
 * where operational responsibility changes hands.
+### Why am additional artifact was needed
+The delivery risk lived in operational 
 
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
