@@ -26,7 +26,8 @@ It influenced:
 This moved the topic from a platform configuration detail into an architecture and delivery coordination issues.
 ## Mini-diagram section
 A compact structural view helped frame the main boundaries and responsibility split.
-
+### What this view covers
+This view 
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
