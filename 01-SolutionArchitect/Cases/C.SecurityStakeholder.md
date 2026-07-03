@@ -41,7 +41,10 @@ A team could acknowledge the required runtime baseline during review and still c
 * container image structure,
 * startup logic,
 * writable directories,
-* 
+* support playbooks,
+* troubleshooting workflow,
+* manifest detail.
+That gap could surface late, 
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
