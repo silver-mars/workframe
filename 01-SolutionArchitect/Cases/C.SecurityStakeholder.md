@@ -44,7 +44,7 @@ A team could acknowledge the required runtime baseline during review and still c
 * support playbooks,
 * troubleshooting workflow,
 * manifest detail.
-That gap could surface late, 
+That gap could surface late, during integration hardening or UAT preparation.
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
