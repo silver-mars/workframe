@@ -37,7 +37,7 @@ The delivery risk lived in operational interpretation and team readiness.
 The project needed an additional artifact that translated security constraints into workload preparation, manifest expectations, and support behavior before UAT.
 ## Delivery risk
 The main risk sat in the gap between accepted constraints and applied engineering behavior.
-
+A team could acknowledge the required runtime baseline during review and still carry 
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
