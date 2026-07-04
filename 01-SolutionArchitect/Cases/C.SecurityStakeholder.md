@@ -56,7 +56,18 @@ The sessions covered:
 * which manifest fields carry the required controls.
 This work reduced ambiguity and gave the team a clear preparation.
 ## Example manifest fragment
-The final workload baseline included the 
+The final workload baseline included the following runtime controls:
+securityContext:
+  runAsNonRoot: true
+  runAsUser: 1001
+  runAsGroup: 2000
+  readOnlyRootFilesystem: true
+  allowPrivilegeEscalation: false
+  capabilities:
+    drop:
+      - ALL
+  seccompProfile:
+    type: RuntimeDefault
 
 
 
