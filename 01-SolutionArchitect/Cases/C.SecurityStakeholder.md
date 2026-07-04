@@ -52,7 +52,9 @@ The sessions covered:
 * how a read-only filesystem affects runtime writes,
 * where applications can keep temporary files,
 * how logging and diagnostics can work under restricted runtime conditions,
-* what support engineers can expect during 
+* what support engineers can expect during incident investigation,
+* which manifest fields carry the required controls.
+This work reduced ambiguity and have 
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
