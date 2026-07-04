@@ -46,8 +46,10 @@ A team could acknowledge the required runtime baseline during review and still c
 * manifest detail.
 That gap could surface late, during integration hardening or UAT preparation.
 ## Team enablement
-A focused enablement track translated the security baseline into concrete engineering actions:
-
+A focused enablement track translated the security baseline into concrete engineering actions.
+The sessions covered:
+* what non-root executions changes in practice,
+* how a read-only 
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
