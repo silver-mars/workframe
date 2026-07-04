@@ -54,7 +54,7 @@ The sessions covered:
 * how logging and diagnostics can work under restricted runtime conditions,
 * what support engineers can expect during incident investigation,
 * which manifest fields carry the required controls.
-This work reduced ambiguity and have 
+This work reduced ambiguity and gave the team a clear preparation target.
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
