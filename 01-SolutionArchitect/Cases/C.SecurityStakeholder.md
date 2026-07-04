@@ -51,7 +51,8 @@ The sessions covered:
 * what non-root executions changes in practice,
 * how a read-only filesystem affects runtime writes,
 * where applications can keep temporary files,
-* how logging and diagnostics 
+* how logging and diagnostics can work under restricted runtime conditions,
+* what support engineers can expect during 
 ## Architectural view used
 A structural view helped frame the system boundary, the Kubernetes platform boundary, the workload position, and the responsibility split between application and platform layers.
 This view supported stakeholder communication and responsibility mapping.
