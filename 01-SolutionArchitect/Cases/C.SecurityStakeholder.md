@@ -77,7 +77,8 @@ The project gained delivery stability through earlier interpretation, clearer ow
 Security concerns can reshape delivery conditions through runtime constraints and team preparation requirements.
 Architectural work in such cases include:
 * selecting a useful structural view,
-* 
+* identifying the operational consequences behind that view,
+* creating a translation artifact for 
 
 
 When **information security** is a first-class stakeholder and the target environment is part of critical information infrastructure, the architectural description should include an explicit security viewpoint covering workload runtime controls.
