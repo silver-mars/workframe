@@ -78,7 +78,9 @@ Security concerns can reshape delivery conditions through runtime constraints an
 Architectural work in such cases include:
 * selecting a useful structural view,
 * identifying the operational consequences behind that view,
-* creating a translation artifact for 
+* creating a translation artifact for selected engineers,
+* aligning the delivery chain before the final test stage.
+
 
 
 When **information security** is a first-class stakeholder and the target environment is part of critical information infrastructure, the architectural description should include an explicit security viewpoint covering workload runtime controls.
