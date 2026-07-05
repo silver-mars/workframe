@@ -80,7 +80,7 @@ Architectural work in such cases include:
 * identifying the operational consequences behind that view,
 * creating a translation artifact for selected engineers,
 * aligning the delivery chain before the final test stage.
-
+This case shows how a stakeholder concern can move through design constraints, team enablement, 
 
 
 When **information security** is a first-class stakeholder and the target environment is part of critical information infrastructure, the architectural description should include an explicit security viewpoint covering workload runtime controls.
