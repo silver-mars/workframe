@@ -73,7 +73,8 @@ The fragment captured the runtime baseline. The delivery work extended further i
 ## Outcome
 The team entered UAT with aligned runtime expectations, prepared manifests, and a support model consistent with the required security baseline.
 The project gained delivery stability through earlier interpretation, clearer ownership, and targeted preparation across roles.
-
+## Architectural takeaway
+Security concerns can reshape delivery conditions through runtime constraints
 
 
 When **information security** is a first-class stakeholder and the target environment is part of critical information infrastructure, the architectural description should include an explicit security viewpoint covering workload runtime controls.
