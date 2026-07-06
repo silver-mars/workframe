@@ -12,7 +12,7 @@ The required baseline covered:
 * blocked privilege escalation,
 * limited Linux capabilities,
 * policy-backed runtime enforcement.
-These requirements entered the project as concrete runtime constraints with direct impact on delivery preparation (?)
+These requirements entered the project as concrete runtime constraints with direct impact on delivery preparation.
 ## Architectural impact
 The security baseline shaped several parts of the delivery architecture.
 It influenced:
