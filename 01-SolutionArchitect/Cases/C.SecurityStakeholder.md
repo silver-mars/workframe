@@ -26,7 +26,8 @@ It influenced:
 This moved the topic from a platform configuration detail into an architecture and delivery coordination issues.
 ## Mini-diagram section
 ### Structural view
-The repository can store the 
+The repository can store the diagram source as PlantUML and showed the rendered image in GitHub.
+
 A compact structural view helped frame the main boundaries and responsibility split.
 ### What this view covers
 This view supported four practical conversations:
