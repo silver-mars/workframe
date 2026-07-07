@@ -52,7 +52,8 @@ That gap could surface late, during integration hardening or UAT preparation.
 The architectural work covered direct alignment across development, support, and platform participants.
 The intervention included:
 * surfacing the runtime consequences of the security baseline,
-* 
+* reviewing workload assumptions against the target execution model,
+* checking manifest readess 
 ## Team enablement
 A focused enablement track translated the security baseline into concrete engineering actions.
 The sessions covered:
