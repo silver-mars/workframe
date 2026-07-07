@@ -54,8 +54,9 @@ The intervention included:
 * surfacing the runtime consequences of the security baseline,
 * reviewing workload assumptions against the target execution model,
 * checking manifest readiness for the required controls,
-* aligning support expectations with the constrained runtime models,
-* 
+* aligning support expectations with the constrained runtime model,
+* pushing readiness discussions before the UAT window.
+This created a shared engineering interpretation of the security concern.
 ## Team enablement
 A focused enablement track translated the security baseline into concrete engineering actions.
 The sessions covered:
