@@ -60,6 +60,7 @@ The sessions covered:
 This work reduced ambiguity and gave the team a clear preparation.
 ## Example manifest fragment
 The final workload baseline included the following runtime controls:
+```yaml
 securityContext:
   runAsNonRoot: true
   runAsUser: 1001
@@ -71,7 +72,7 @@ securityContext:
       - ALL
   seccompProfile:
     type: RuntimeDefault
-
+```
 The fragment captured the runtime baseline. The delivery work extended further into image preparation, writable path planning, and support readiness.
 ## Outcome
 The team entered UAT with aligned runtime expectations, prepared manifests, and a support model consistent with the required security baseline.
