@@ -53,7 +53,9 @@ The architectural work covered direct alignment across development, support, and
 The intervention included:
 * surfacing the runtime consequences of the security baseline,
 * reviewing workload assumptions against the target execution model,
-* checking manifest readess 
+* checking manifest readiness for the required controls,
+* aligning support expectations with the constrained runtime models,
+* 
 ## Team enablement
 A focused enablement track translated the security baseline into concrete engineering actions.
 The sessions covered:
