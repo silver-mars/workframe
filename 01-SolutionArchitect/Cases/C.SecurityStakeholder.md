@@ -27,7 +27,39 @@ This moved the topic from a platform configuration detail into an architecture a
 ## Mini-diagram section
 ### Structural view
 The repository can store the diagram source as PlantUML and showed the rendered image in GitHub.
+```PlantUML
+@startuml
+skinparam BackgroundColor white
+skinparam Shadowing false
+skinparam DefaultTextAlignment left
+skinparam PackageStyle rectangle
+skinparam rectangle {
+    RoundCorner 10
+}
 
+rectangle "Kubernetes Platform" as K8S {
+    rectangle "Application Workload" as APP
+}
+rectangle "Runtime Policy" as POL
+
+actor "Operations / Support" as OPS
+
+POL --> K8S : constrains runtime
+K8S --> APP : hosts workload
+OPS --> K8S : operates platform
+OPS --> APP : supports workload
+
+note right of APP
+Runtime restrictions shape
+workload preparation
+end note
+
+note bottom of OPS
+Support model and troubleshooting
+must align before UAT
+end note
+@enduml
+```
 A compact structural view helped frame the main boundaries and responsibility split.
 ### What this view covers
 This view supported four practical conversations:
