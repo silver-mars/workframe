@@ -60,12 +60,11 @@ must align before UAT
 end note
 @enduml
 ```
-A compact structural view helped frame the main boundaries and responsibility split.
 ### What this view covers
 This view supported four practical conversations:
-* where the application sits,
-* where the platform boundary sits,
 * where runtime policy is applied,
+* where the platform boundary sits,
+* where the application workload runs,
 * where operational responsibility changes hands.
 ### Why an additional artifact was needed
 The delivery risk lived in operational interpretation and team readiness.
