@@ -48,7 +48,7 @@ Before modeling begins, clarify the following:
 - C4 diagrams are used to support reasoning and communication, not as an end in themselves.
 ## What C4 explains well
 C4 strong when the main question is structural.
-It helps 
+It helps explains system boundaries, external dependencies, major execution units, responsibility allocation, 
 ## Solution option framing
 Once stakeholder concerns and requirements are clarified, do not converge immediately on a single target design.
 Instead, develop two or three architecturally viable candidate solutions that differ by their core design idea, such as decomposition strategy, integration style, data ownership model, or operational model.
