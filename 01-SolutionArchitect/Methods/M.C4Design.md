@@ -50,6 +50,7 @@ Before modeling begins, clarify the following:
 C4 strong when the main question is structural.
 It helps explains system boundaries, external dependencies, major execution units, responsibility allocation, and where important integration seams exist.
 It is especially useful, when you need to show how a system is decomposed, where key decision sits, which containers carry operational responsibility, and which parts a likely to change independently.
+Used this way, C4 helps make architectural scope and decomposition discuss
 ## Solution option framing
 Once stakeholder concerns and requirements are clarified, do not converge immediately on a single target design.
 Instead, develop two or three architecturally viable candidate solutions that differ by their core design idea, such as decomposition strategy, integration style, data ownership model, or operational model.
