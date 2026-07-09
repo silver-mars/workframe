@@ -2,8 +2,12 @@
 type: method
 name: C4 Design
 context: SolutionArchitectContext
+maturity: M3
 status: Active
 bindsRole: "[R.SolutionArchitect](01-SolutionArchitect/Roles/R.SolutionArchitect.md)"
+rcs:
+  - "agency: Predictive"
+  - "safety: SC2"
 preconditions:
   - Access to system requirements and stakeholder context.
   - Understanding of the target system boundary and constraints.
@@ -22,7 +26,6 @@ It starts with the system of interest, stakeholder concerns, constraints, and qu
 ## Why it matters
 Architectural decisions are shaped by the concerns of the stakeholders who use, operate, integrate, govern, and evolve the system.
 A good C4-based design process helps translate those concerns into clear system boundaries, responsibility structures, integration decisions, and evolution paths, in line with the principles of [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/cm/).
-
 Used well, C4 helps define the system of interest, establish its boundaries, separate internal structure from external dependencies, and present the architecture through views suited to different audiences.
 It supports systematic reasoning about decomposition, responsibilities, constraints, and evolvability, making it a practical method for communication, trade-off analysis, and architectural decision support.
 ## When to use it
@@ -43,6 +46,7 @@ Before modeling begins, clarify the following:
 - Architectural descriptions should reveal responsibilities, dependencies, constraints, and likely change pressure.
 - Design attention should focus first on boundary ambiguity, responsibility ambiguity, high-risk integrations, operational fragility, scaling bottlenecks, and likely change areas.
 - C4 diagrams are used to support reasoning and communication, not as an end in themselves.
+## What
 ## Solution option framing
 Once stakeholder concerns and requirements are clarified, do not converge immediately on a single target design.
 Instead, develop two or three architecturally viable candidate solutions that differ by their core design idea, such as decomposition strategy, integration style, data ownership model, or operational model.
