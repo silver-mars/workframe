@@ -53,7 +53,7 @@ It is especially useful, when you need to show how a system is decomposed, where
 Used this way, C4 helps make architectural scope and decomposition discussable before implementation details take over the conversation.
 ## What C4 does not explains well
 C4 is not a complete language for architecture. By itself, it does not explain sequencing, runtime control flow, temporal behavior, failover paths, retry logic, operational procedures, or decision timing very well.
-A container view can show that two systems interact, but it usually does not show the exact orders of 
+A container view can show that two systems interact, but it usually does not show the exact orders of calls, the control conditions, or how  
 ## Solution option framing
 Once stakeholder concerns and requirements are clarified, do not converge immediately on a single target design.
 Instead, develop two or three architecturally viable candidate solutions that differ by their core design idea, such as decomposition strategy, integration style, data ownership model, or operational model.
