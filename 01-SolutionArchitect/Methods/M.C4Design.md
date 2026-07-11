@@ -21,7 +21,7 @@ evidence:
 ---
 # C4 Design as an Architectural Thinking Method
 ## What it is
-This approach uses C4 as a disciplined method for architectural thinking and solution design.
+This approach uses C4 as a method for architectural thinking and solution design.
 It starts with the system of interest, stakeholder concerns, constraints, and quality goals, and then develops architectural understanding across multiple levels of abstraction.
 ## Why it matters
 Architectural decisions are shaped by the concerns of the stakeholders who use, operate, integrate, govern, and evolve the system.
