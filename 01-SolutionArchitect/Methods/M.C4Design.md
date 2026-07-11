@@ -36,7 +36,7 @@ Before modeling begins, clarify the following:
 - The relevant stakeholders and their concerns.
 - Business goals, constraints, and success criteria.
 - Key quality attributes such as scalability, resilience, security, operability, and evolvability.
-- External systems, dependencies, and likely change drivers.
+- External dependencies, integrations, and likely change drivers
 ## Working principles
 - Stakeholder concerns come before structural decomposition.
 - System boundaries should be explicit before internal structure is refined.
