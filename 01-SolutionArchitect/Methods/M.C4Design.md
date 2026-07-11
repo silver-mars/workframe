@@ -53,9 +53,8 @@ C4 is not a complete language for architecture. By itself, it does not explain s
 A container view can show that two systems interact, but it usually does not show the exact orders of calls, the control conditions, or how behavior changes during provisioning, incident response, recovery, or 
 For that reason, C4 could not be treated as a substitute for dynamic, operational, or decision-flow artifacts. 
 ## Solution option framing
-Once stakeholder concerns and requirements are clarified, do not converge immediately on a single target design.
-Instead, develop two or three architecturally viable candidate solutions that differ by their core design idea, such as decomposition strategy, integration style, data ownership model, or operational model.
-Each candidate should include a short pre-experimental rationale:
+Before selecting a target design, develop two or three viable options when they differ materially in decomposition, integration style, data ownership, or operational model.
+For each option, record:
 - Why this option could plausibly satisfy the key concerns.
 - Which quality attributes it is expected to strengthen.
 - Which trade-offs it introduces.
