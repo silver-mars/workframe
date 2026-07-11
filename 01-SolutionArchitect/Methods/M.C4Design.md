@@ -41,7 +41,8 @@ Before modeling begins, clarify the following:
 - Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
 - Use views to reveal responsibilities, dependencies, constraints, change pressure, and high-risk areas.
 - Design attention should focus first on boundary ambiguity, responsibility ambiguity, high-risk integrations, operational fragility, scaling bottlenecks, and likely change areas.
-- C4 diagrams are used to support reasoning and communication, not as an end in themselves.
+- Treat C4 diagrams as reasoning and communication aids, not as architecture itself or as evidence that a design is adequate.
+* Explore viable alternatives before convergence when the design space is materially open.
 ## What C4 explains well
 C4 strong when the main question is structural.
 It helps explains system boundaries, external dependencies, major execution units, responsibility allocation, and where important integration seams exist.
