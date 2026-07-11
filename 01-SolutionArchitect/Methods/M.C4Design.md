@@ -88,7 +88,8 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 - Two or three candidate solution directions when the design space is still open.
 - Context, container, and selective component views.
 - A clearer understanding of responsibilities, dependencies, bottlenecks, and likely evolution paths.
-- A reasoned basis for choosing or rejecting a target solution.
+- Explicit limits of each view and complementary artifacts where needed
+* A reasoned basis for further design, ADRs, validation, or implementation planning.
 - A bridge to further design work, ADRs, validation activities, or implementation planning.
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
