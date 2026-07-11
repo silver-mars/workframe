@@ -25,8 +25,7 @@ This approach uses C4 as a method for architectural thinking and solution design
 It starts with the system of interest, stakeholder concerns, constraints, and quality goals, and then develops architectural understanding across multiple levels of abstraction.
 ## Why it matters
 Architectural decisions are shaped by the concerns of the stakeholders who use, operate, integrate, govern, and evolve the system.
-C4 provides a practical structural language for that work and supports [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/cm/)-st
-
+C4 provides a practical structural language for that work and supports [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/cm/)style separation of concerns, viewpoints, and views.
 It supports systematic reasoning about decomposition, responsibilities, constraints, and evolvability, making it a practical method for communication, trade-off analysis, and architectural decision support.
 ## When to use it
 Use this method when a system must be designed, reviewed, modernized, explained, or compared at the architectural level.
