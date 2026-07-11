@@ -90,6 +90,5 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 - A clearer understanding of responsibilities, dependencies, bottlenecks, and likely evolution paths.
 - Explicit limits of each view and complementary artifacts where needed
 * A reasoned basis for further design, ADRs, validation, or implementation planning.
-- A bridge to further design work, ADRs, validation activities, or implementation planning.
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
