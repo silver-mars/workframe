@@ -82,7 +82,6 @@ Adjust the explanation for sponsors, engineers, operators, security stakeholders
 10. **Converge on a target solution**
 Approve, combine, narrow, or reject candidate solutions based on architectural fit, trade-offs, and remaining uncertainty.
 ## Outputs
-A good run of this method should produce:
 - A clear definition of the system of interest.
 - A stakeholder-aware architectural framing.
 - A bounded architectural context.
