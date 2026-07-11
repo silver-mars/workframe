@@ -38,10 +38,8 @@ Before modeling begins, clarify the following:
 - Key quality attributes such as scalability, resilience, security, operability, and evolvability.
 - External dependencies, integrations, and likely change drivers
 ## Working principles
-- Stakeholder concerns come before structural decomposition.
-- System boundaries should be explicit before internal structure is refined.
-- Different audiences need different views.
-- Architectural descriptions should reveal responsibilities, dependencies, constraints, and likely change pressure.
+- Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
+- Use views to reveal responsibilities, dependencies, constraints, change pressure, and high-risk areas.
 - Design attention should focus first on boundary ambiguity, responsibility ambiguity, high-risk integrations, operational fragility, scaling bottlenecks, and likely change areas.
 - C4 diagrams are used to support reasoning and communication, not as an end in themselves.
 ## What C4 explains well
