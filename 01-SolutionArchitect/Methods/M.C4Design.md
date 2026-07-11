@@ -28,8 +28,7 @@ Architectural decisions are shaped by the concerns of the stakeholders who use, 
 C4 provides a practical structural language for that work and supports [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/cm/)style separation of concerns, viewpoints, and views.
 It supports systematic reasoning about decomposition, responsibilities, constraints, and evolvability, making it a practical method for communication, trade-off analysis, and architectural decision support.
 ## When to use it
-Use this method when a system must be designed, reviewed, modernized, explained, or compared at the architectural level.
-It is especially useful when the system has unclear boundaries, multiple stakeholders, significant integration points, operational constraints, or competing solution directions.
+Use this method to design, review, modernize, explain, or compare a system when its boundaries, integrations, responsibilities, operational constraints, or solution directions are unclear.
 ## Inputs to clarify
 Before modeling begins, clarify the following:
 - The system of interest.
