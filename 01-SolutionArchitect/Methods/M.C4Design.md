@@ -52,6 +52,8 @@ Used this way, C4 helps make architectural scope and decomposition discussable b
 C4 is not a complete language for architecture. By itself, it does not explain sequencing, runtime control flow, temporal behavior, failover paths, retry logic, operational procedures, or decision timing very well.
 A container view can show that two systems interact, but it usually does not show the exact orders of calls, the control conditions, or how behavior changes during provisioning, incident response, recovery, or 
 For that reason, C4 could not be treated as a substitute for dynamic, operational, or decision-flow artifacts. 
+## When to add another artifact
+Add the smallest complementary artifact that answers 
 ## Solution option framing
 Before selecting a target design, develop two or three viable options when they differ materially in decomposition, integration style, data ownership, or operational model.
 For each option, record:
