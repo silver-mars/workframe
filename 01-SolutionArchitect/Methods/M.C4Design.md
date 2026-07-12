@@ -54,7 +54,7 @@ A container view can show that two systems interact, but it usually does not sho
 For that reason, C4 could not be treated as a substitute for dynamic, operational, or decision-flow artifacts. 
 ## When to add another artifact
 Add the smallest complementary artifact that answers the question the structural view leaves open:
-- 
+- Sequence or flow 
 ## Solution option framing
 Before selecting a target design, develop two or three viable options when they differ materially in decomposition, integration style, data ownership, or operational model.
 For each option, record:
