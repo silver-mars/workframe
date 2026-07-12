@@ -98,4 +98,4 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 - Explicit limits of each view and complementary artifacts where needed
 * A reasoned basis for further design, ADRs, validation, or implementation planning.
 ## Example cases
-[Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md)
+[Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md) - illustrated how a stakeholder concern changes boundary decisions
