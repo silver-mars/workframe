@@ -57,7 +57,8 @@ Add the smallest complementary artifact that answers the question the structural
 - Sequence or flow diagram for interaction order and control flow
 - ADR for decision rationale and trade-offs
 - Deployment or operational view for runtime placement, ownership, and failure domains
-- State or lifecycle artid
+- State or lifecycle artifact for modes and transitions over time
+
 ## Solution option framing
 Before selecting a target design, develop two or three viable options when they differ materially in decomposition, integration style, data ownership, or operational model.
 For each option, record:
