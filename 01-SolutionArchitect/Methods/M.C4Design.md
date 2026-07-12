@@ -56,7 +56,8 @@ For that reason, C4 could not be treated as a substitute for dynamic, operationa
 Add the smallest complementary artifact that answers the question the structural view leaves open:
 - Sequence or flow diagram for interaction order and control flow
 - ADR for decision rationale and trade-offs
-- 
+- Deployment or operational view for runtime placement, ownership, and failure domains
+- State or lifecycle artid
 ## Solution option framing
 Before selecting a target design, develop two or three viable options when they differ materially in decomposition, integration style, data ownership, or operational model.
 For each option, record:
