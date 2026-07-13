@@ -58,7 +58,7 @@ Add the smallest complementary artifact that answers the question the structural
 - ADR for decision rationale and trade-offs
 - Deployment or operational view for runtime placement, ownership, and failure domains
 - State or lifecycle artifact for modes and transitions over time
-The purpose is avoid treating a clear structural picture as a complete architectural explanation.
+The purpose is to avoid treating a clear structural picture as a complete architectural explanation.
 ## Solution option framing
 Before selecting a target design, develop two or three viable options when they differ materially in decomposition, integration style, data ownership, or operational model.
 For each option, record:
