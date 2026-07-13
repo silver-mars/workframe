@@ -85,7 +85,7 @@ Go deeper only where a container carries architectural risk, high complexity, si
 8. **Expose operational and integration consequences**
 Show where operational responsibility sits, where integration seams exist, where bottlenecks may emerge, and where change pressure is likely to accumulate.
 9. **Tailor views to the audience**
-Adjust the explanation for sponsors, engineers, operators, security stakeholders, or platform teams without changing the underlying architectural meaning.
+Check what the current view explains, what it hides, and whether another artifact is needed.
 10. **Converge on a target solution**
 Approve, combine, narrow, or reject candidate solutions based on architectural fit, trade-offs, and remaining uncertainty.
 ## Outputs
