@@ -53,7 +53,7 @@ C4 is a structural method. By itself, it is not sufficient for explaining runtim
 It does not explain:
 - sequencing - the order in which calls, events or steps occur,
 - runtime control flow - branching, retry logic, and error paths during execution,
-- temporal behavior - 
+- temporal behavior - how the system behaves over time, across lifecycle phases, or under changing load,
 - failover paths, retry logic, operational procedures, or decision timing very well.
 A container view can show that two systems interact, but it usually does not show the exact order of calls, the control conditions, or how behavior changes during provisioning, incident response, recovery, or 
 For that reason, C4 cannot be treated as a substitute for dynamic, operational, or decision-flow artifacts. 
