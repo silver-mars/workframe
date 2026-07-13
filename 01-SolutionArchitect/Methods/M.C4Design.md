@@ -44,7 +44,7 @@ Before modeling begins, clarify the following:
 - Treat C4 diagrams as reasoning and communication aids, not as architecture itself or as evidence that a design is adequate.
 * Explore viable alternatives before convergence when the design space is materially open.
 ## What C4 explains well
-C4 is strong when the main question is structural.
+C4 is a structural method.
 It explains system boundaries, external dependencies, major execution units, responsibility allocation, and where important integration seams exist.
 It is especially useful, when you need to show how a system is decomposed, where a key decision sits, which containers carry operational responsibility, and which parts are likely to change independently.
 Used this way, C4 helps make architectural scope and decomposition discussable before implementation details take over the conversation.
