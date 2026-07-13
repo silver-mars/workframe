@@ -49,7 +49,9 @@ It explains system boundaries, external dependencies, major execution units, res
 It is especially useful, when you need to show how a system is decomposed, where a key decision sits, which containers carry operational responsibility, and which parts are likely to change independently.
 Used this way, C4 makes architectural scope and decomposition discussable before implementation details take over the conversation.
 ## What C4 does not explain well
-C4 is a structural method. By itself, it does not explain sequencing, runtime control flow, temporal behavior, failover paths, retry logic, operational procedures, or decision timing very well.
+C4 is a structural method. By itself, it is not sufficient for explaining runtime behaviour, 
+
+sequencing, runtime control flow, temporal behavior, failover paths, retry logic, operational procedures, or decision timing very well.
 A container view can show that two systems interact, but it usually does not show the exact order of calls, the control conditions, or how behavior changes during provisioning, incident response, recovery, or 
 For that reason, C4 cannot be treated as a substitute for dynamic, operational, or decision-flow artifacts. 
 ## When to add another artifact
