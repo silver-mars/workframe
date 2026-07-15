@@ -57,7 +57,7 @@ It does not explain:
 - **failover and recovery paths** - what happens when a dependency is unavailable or a container fails,
 - **operational procedures** - provisioning, deployment, incident response, and runbook-level flows,
 - **decision timing** - when a control decision is made and by which component.
-A C4 view can show that two systems interact, but it usually does not show the exact order of calls, the control conditions, or how behavior changes during provisioning, incident response, recovery, or 
+A C4 view can show that two systems interact, but it typically does not show the exact order of calls, the control conditions, or how behavior changes during provisioning, incident response, recovery, or deployment.
 For that reason, C4 cannot be treated as a substitute for dynamic, operational, or decision-flow artifacts. 
 ## When to add another artifact
 Add the smallest complementary artifact that answers the question the structural view leaves open:
