@@ -1,7 +1,6 @@
 ---
 type: method
 name: C4 Design
-context: SolutionArchitectContext
 maturity: M3
 status: Active
 bindsRole: "[R.SolutionArchitect](01-SolutionArchitect/Roles/R.SolutionArchitect.md)"
@@ -16,8 +15,6 @@ postconditions:
   - System context, container, and component views are produced or updated.
   - Architecture decisions and boundaries are clarified.
   - Stakeholders have a shared understanding of the system structure.
-evidence:
-  - 
 ---
 # C4 Design as an Architectural Thinking Method
 ## What it is
@@ -42,14 +39,14 @@ Before modeling begins, clarify the following:
 - Use views to reveal responsibilities, dependencies, constraints, change pressure, and high-risk areas.
 - Design attention should focus first on boundary ambiguity, responsibility ambiguity, high-risk integrations, operational fragility, scaling bottlenecks, and likely change areas.
 - Treat C4 diagrams as reasoning and communication aids, not as architecture itself or as evidence that a design is adequate.
-* Explore viable alternatives before convergence when the design space is materially open.
+- Explore viable alternatives before convergence when the design space is materially open.
 ## What C4 explains well
 C4 is strong when the main question is structural.
 It explains system boundaries, external dependencies, major execution units, responsibility allocation, and where important integration seams exist.
 It is especially useful, when you need to show how a system is decomposed, where a key decision sits, which containers carry operational responsibility, and which parts are likely to change independently.
 Used this way, C4 makes architectural scope and decomposition discussable before implementation details take over the conversation.
 ## What C4 does not explain well
-C4 is a structural method. By itself, it is not sufficient for explaining runtime behavior or operational 
+C4 is a structural method. By itself, it is not sufficient for explaining runtime behavior or operational flow.
 It does not explain:
 - **sequencing** - the order in which calls, events or steps occur,
 - **runtime control flow** - branching, retry logic, and error paths during execution,
@@ -103,6 +100,6 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 - Context, container, and selective component views.
 - A clearer understanding of responsibilities, dependencies, bottlenecks, and likely evolution paths.
 - Explicit limits of each view and complementary artifacts where needed
-* A reasoned basis for further design, ADRs, validation, or implementation planning.
+- A reasoned basis for further design, ADRs, validation, or implementation planning.
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md) - illustrated how a stakeholder concern changes boundary decisions and the interpretation of structural views.
