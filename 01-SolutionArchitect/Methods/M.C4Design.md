@@ -61,10 +61,10 @@ A C4 view can show that two systems interact, but it typically does not show the
 For that reason, C4 cannot be treated as a substitute for dynamic, operational, or decision-flow artifacts. 
 ## When to add another artifact
 Add the smallest complementary artifact that answers the question the structural view leaves open:
-- Sequence or flow diagram for interaction order and control flow
-- ADR for decision rationale and trade-offs
-- Deployment or operational view for runtime placement, ownership, and failure domains
-- State or lifecycle artifact for modes and transitions over time
+- **Sequence or flow diagram** - for interaction order and control flow
+- **ADR** - for decision rationale and trade-offs
+- **Deployment or operational view** - for runtime placement, ownership, and failure domains
+- **State or lifecycle artifact** - for modes and transitions over time
 The purpose is to avoid treating a clear structural picture as a complete architectural explanation.
 ## Solution option framing
 Before selecting a target design, develop two or three viable options when they differ materially in decomposition, integration style, data ownership, or operational model.
