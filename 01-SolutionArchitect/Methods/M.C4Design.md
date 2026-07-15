@@ -49,15 +49,15 @@ It explains system boundaries, external dependencies, major execution units, res
 It is especially useful, when you need to show how a system is decomposed, where a key decision sits, which containers carry operational responsibility, and which parts are likely to change independently.
 Used this way, C4 makes architectural scope and decomposition discussable before implementation details take over the conversation.
 ## What C4 does not explain well
-C4 is a structural method. By itself, it is not sufficient for explaining runtime behaviour or operational 
+C4 is a structural method. By itself, it is not sufficient for explaining runtime behavior or operational 
 It does not explain:
-- sequencing - the order in which calls, events or steps occur,
-- runtime control flow - branching, retry logic, and error paths during execution,
-- temporal behavior - how the system behaves over time, across lifecycle phases, or under changing load,
-- failover and recovery paths - what happens when a dependency is unavailable or a container fails,
-- operational procedures - provisioning, deployment, incident response, and runbook-level flows,
-- decision timing - when a control decision is made and by 
-A container view can show that two systems interact, but it usually does not show the exact order of calls, the control conditions, or how behavior changes during provisioning, incident response, recovery, or 
+- **sequencing** - the order in which calls, events or steps occur,
+- **runtime control flow** - branching, retry logic, and error paths during execution,
+- **temporal behavior** - how the system behaves over time, across lifecycle phases, or under changing load,
+- **failover and recovery paths** - what happens when a dependency is unavailable or a container fails,
+- **operational procedures** - provisioning, deployment, incident response, and runbook-level flows,
+- **decision timing** - when a control decision is made and by which component.
+A C4 view can show that two systems interact, but it usually does not show the exact order of calls, the control conditions, or how behavior changes during provisioning, incident response, recovery, or 
 For that reason, C4 cannot be treated as a substitute for dynamic, operational, or decision-flow artifacts. 
 ## When to add another artifact
 Add the smallest complementary artifact that answers the question the structural view leaves open:
