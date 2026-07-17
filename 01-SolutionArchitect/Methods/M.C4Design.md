@@ -34,7 +34,8 @@ Before modeling begins, clarify the following.
 **Level 1 - Architecture-shaping inputs**
 - Who are the relevant stakeholders, and what are their concerns
 - What are the business goals, constraints, and success criteria
-- What quality attributes are materially important: 
+- What quality attributes are materially important: scalability, resilience, security, operability, evolvability
+- What are the failure domain
 ## Working principles
 - Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
 - Use views to reveal responsibilities, dependencies, constraints, change pressure, and high-risk areas.
