@@ -37,7 +37,9 @@ Before modeling begins, clarify the following.
 - What quality attributes are materially important: scalability, resilience, security, operability, evolvability
 - What are the known external dependencies, integration points, and likely changed drivers.
 **Level 2 - Risk focused inputs**
-- Where are the failure domains and what are the 
+- Where are the failure domains and what are the isolation boundaries
+- Who has operational ownership of each major container
+- Where are the high-risk integration 
 ## Working principles
 - Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
 - Use views to reveal responsibilities, dependencies, constraints, change pressure, and high-risk areas.
