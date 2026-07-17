@@ -39,7 +39,8 @@ Before modeling begins, clarify the following.
 **Level 2 - Risk focused inputs**
 - Where are the failure domains and what are the isolation boundaries
 - Who has operational ownership of each major container
-- Where are the high-risk integration 
+- Where are the high-risk integration surfaces and what coupling assumptions are being made
+- What constraints exist on the solution space: r
 ## Working principles
 - Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
 - Use views to reveal responsibilities, dependencies, constraints, change pressure, and high-risk areas.
