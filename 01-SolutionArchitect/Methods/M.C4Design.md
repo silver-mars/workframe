@@ -28,9 +28,10 @@ Use this method to design, review, modernize, explain, or compare a system when 
 ## Inputs to clarify
 Before modeling begins, clarify the following.
 
-Level 0 - Framing.
+**Level 0 - Framing.**
 - What is the system of interest: what is inside the architecture scope
-- What is the bounded context of this 
+- What is the bounded context of this design discussion: project stage, domain, or decision point.
+Level 1 - Architecture 
 ## Working principles
 - Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
 - Use views to reveal responsibilities, dependencies, constraints, change pressure, and high-risk areas.
