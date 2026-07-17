@@ -26,13 +26,10 @@ It supports systematic reasoning about decomposition, responsibilities, constrai
 ## When to use it
 Use this method to design, review, modernize, explain, or compare a system when its boundaries, integrations, responsibilities, operational constraints, or solution directions are unclear.
 ## Inputs to clarify
-Before modeling begins, clarify the following:
-- The system of interest.
-- The bounded context of the design discussion.
-- The relevant stakeholders and their concerns.
-- Business goals, constraints, and success criteria.
-- Key quality attributes such as scalability, resilience, security, operability, and evolvability.
-- External dependencies, integrations, and likely change drivers
+Before modeling begins, clarify the following.
+
+Level 0 - Framing.
+- What is the system of 
 ## Working principles
 - Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
 - Use views to reveal responsibilities, dependencies, constraints, change pressure, and high-risk areas.
