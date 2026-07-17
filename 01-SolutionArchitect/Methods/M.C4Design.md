@@ -36,7 +36,8 @@ Before modeling begins, clarify the following.
 - What are the business goals, constraints, and success criteria
 - What quality attributes are materially important: scalability, resilience, security, operability, evolvability
 - What are the known external dependencies, integration points, and likely changed drivers.
-Level 2 
+**Level 2 - Risk focused inputs**
+- Where are the failure domains and what are the 
 ## Working principles
 - Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
 - Use views to reveal responsibilities, dependencies, constraints, change pressure, and high-risk areas.
