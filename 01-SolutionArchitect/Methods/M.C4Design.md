@@ -111,7 +111,8 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 ## Glossary
 **System of interest** - the system whose architecture is being reasoned about.
 **Stakeholder** - any person or group with a concern that the system must address.
-Concern - a specific requirement, risk, 
+**Concern** - a specific requirement, risk, quality goal, or constraint that matters to stakeholder.
+Boundary - the explicit
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md) - illustrated how a stakeholder concern changes boundary decisions and the interpretation of structural views.
