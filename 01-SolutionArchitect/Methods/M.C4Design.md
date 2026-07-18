@@ -109,6 +109,7 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 - Explicit limits of each view and complementary artifacts where needed
 - A reasoned basis for further design, ADRs, validation, or implementation planning.
 ## Glossary
-System of interest - the system whose architecture is 
+**System of interest** - the system whose architecture is being reasoned about.
+Stakeholder - any person or group with a concern that the system must address.
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md) - illustrated how a stakeholder concern changes boundary decisions and the interpretation of structural views.
