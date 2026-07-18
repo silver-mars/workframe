@@ -108,5 +108,7 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 - A clearer understanding of responsibilities, dependencies, bottlenecks, and likely evolution paths.
 - Explicit limits of each view and complementary artifacts where needed
 - A reasoned basis for further design, ADRs, validation, or implementation planning.
+## Glossary
+System of interest - the system whose architecture is 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md) - illustrated how a stakeholder concern changes boundary decisions and the interpretation of structural views.
