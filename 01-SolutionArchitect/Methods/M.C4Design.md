@@ -115,7 +115,8 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 **Boundary** - the explicit line separating what is inside the architecture score from what is outside.
 **Responsibility** - what a container or component is accountable for, in terms behavior or data.
 **Failure domain** - a scope within which a single failure can propagate without crossing an explicit isolation 
-Operational ownership - which team is accountable for running, monitoring, and recovering a container 
+**Operational ownership** - which team is accountable for running, monitoring, and recovering a container in production.
+Integration surface - the explicit interface or contact between the system and an 
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md) - illustrated how a stakeholder concern changes boundary decisions and the interpretation of structural views.
