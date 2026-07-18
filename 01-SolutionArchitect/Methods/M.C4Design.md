@@ -113,6 +113,7 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 **Stakeholder** - any person or group with a concern that the system must address.
 **Concern** - a specific requirement, risk, quality goal, or constraint that matters to stakeholder.
 **Boundary** - the explicit line separating what is inside the architecture score from what is outside.
+**Responsibility** - what a container or component is accountable for, in terms behavior or data.
 
 
 ## Example cases
