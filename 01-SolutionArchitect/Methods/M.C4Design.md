@@ -114,7 +114,7 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 **Concern** - a specific requirement, risk, quality goal, or constraint that matters to stakeholder.
 **Boundary** - the explicit line separating what is inside the architecture score from what is outside.
 **Responsibility** - what a container or component is accountable for, in terms behavior or data.
-
+**Failure domain** - a scope within which a single failure can propagate without 
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md) - illustrated how a stakeholder concern changes boundary decisions and the interpretation of structural views.
