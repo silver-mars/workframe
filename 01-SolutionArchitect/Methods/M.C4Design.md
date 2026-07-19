@@ -111,6 +111,8 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 ## Glossary
 **System of interest** - the system whose architecture is being reasoned about.
 **Stakeholder** - any person or group with a concern that the system must address.
+**Container** - an independently deployable or executable unit that hosts one or more components and owns a distinct runtime responsibility.
+**Component** - a cohesive internal unit within a container that implements a specific responsibility behind explicit interfaces.
 **Concern** - a specific requirement, risk, quality goal, or constraint that matters to stakeholder.
 **Boundary** - the explicit line separating what is inside the architecture score from what is outside.
 **Responsibility** - what a container or component is accountable for, in terms behavior or data.
