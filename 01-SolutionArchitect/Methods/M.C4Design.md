@@ -18,7 +18,7 @@ postconditions:
 ---
 # C4 Design as an Architectural Thinking Method
 ## What it is
-This method uses C4 to structure architectural thinking around a system of interest, stakeholder concerns, constraints, and quality goals, so boundaries, responsibilities, and design options can be discussed clearly before implementation details take over.
+This method uses C4 to structure reasoning about a system: its boundaries, stakeholder concerns, constraints, and quality goals, so boundaries, responsibilities, and design options can be discussed clearly before implementation details take over.
 ## Why it matters
 Architectural decisions are shaped by the concerns of the stakeholders who use, operate, integrate, govern, and evolve the system.
 C4 provides a practical structural language for that work and supports [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/cm/)style separation of concerns, viewpoints, and views.
