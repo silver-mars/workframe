@@ -116,7 +116,8 @@ Approve, combine, narrow, or reject candidate solutions based on architectural f
 **Failure domain** - a scope within which a single failure can propagate without crossing an explicit isolation 
 **Operational ownership** - which team is accountable for running, monitoring, and recovering a container in production.
 **Integration surface** - the explicit interface or contact between the system and an external dependency.
-Change driver - a force (business, technical regulatory, operational) that is likely to require 
+**Change driver** - a force (business, technical regulatory, operational) that is likely to require architectural change.
+Trade-off - a design decision where improving one quality attribute or 
 
 ## Example cases
 [Security stakeholder in critical infrastructure system](C.SecurityStakeholder.md) - illustrated how a stakeholder concern changes boundary decisions and the interpretation of structural views.
