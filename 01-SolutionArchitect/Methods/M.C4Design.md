@@ -26,8 +26,7 @@ It supports systematic reasoning about decomposition, responsibilities, constrai
 ## When to use it
 Use this method to design, review, modernize, explain, or compare a system when its boundaries, integrations, responsibilities, operational constraints, or solution directions are unclear.
 ## Inputs to clarify
-Before modeling begins, clarify the following.
-
+Before modeling begins, clarify the following:
 **Level 0 - Framing.**
 - What is the system of interest: what is inside the architecture scope
 - What is the bounded context of this design discussion: project stage, domain, or decision point.
