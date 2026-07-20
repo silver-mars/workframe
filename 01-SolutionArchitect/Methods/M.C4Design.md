@@ -28,7 +28,8 @@ It supports systematic reasoning about decomposition, responsibilities, constrai
 Use this method to design, review, modernize, explain, or compare a system when its boundaries, integrations, responsibilities, operational constraints, or solution directions are unclear.
 ## C4 view scope
 This method normally works through three C4 levels:
-- System context - the system of interest, its users, and 
+- System context - the system of interest, its users, and external dependencies.
+- Container - the major runtime, deployment, storage, and responsibility-
 ## Inputs to clarify
 Before modeling begins, clarify the following:
 **Level 0 - Framing.**
