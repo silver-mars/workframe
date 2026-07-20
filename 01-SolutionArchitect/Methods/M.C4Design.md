@@ -26,6 +26,7 @@ C4 provides a practical structural language for that work and supports [ISO/IEC/
 It supports systematic reasoning about decomposition, responsibilities, constraints, and evolvability, making it a practical method for communication, trade-off analysis, and architectural decision support.
 ## When to use it
 Use this method to design, review, modernize, explain, or compare a system when its boundaries, integrations, responsibilities, operational constraints, or solution directions are unclear.
+##
 ## Inputs to clarify
 Before modeling begins, clarify the following:
 **Level 0 - Framing.**
