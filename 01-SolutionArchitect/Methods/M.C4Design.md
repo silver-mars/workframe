@@ -29,7 +29,8 @@ Use this method to design, review, modernize, explain, or compare a system when 
 ## C4 view scope
 This method normally works through three C4 levels:
 - System context - the system of interest, its users, and external dependencies.
-- Container - the major runtime, deployment, storage, and responsibility-
+- Container - the major runtime, deployment, storage, and responsibility-bearing units.
+- Component - selected internal responsibilities with within a container when they 
 ## Inputs to clarify
 Before modeling begins, clarify the following:
 **Level 0 - Framing.**
