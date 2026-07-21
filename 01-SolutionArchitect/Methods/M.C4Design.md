@@ -30,8 +30,9 @@ Use this method to design, review, modernize, explain, or compare a system when 
 This method normally works through three C4 levels:
 - **System context** - the system of interest, its users, and external dependencies.
 - **Container** - the major runtime, deployment, storage, and responsibility-bearing units.
-- **Component** - selected internal responsibilities within a container when they carry material architectural risk or decision risk.
+- **Component** - selected internal responsibilities within a container when they carry material architectural risk or decision weight.
 Use a component view selectively. Do not create it merely to complete the C4 hierarchy.
+Code-level diagrams
 ## Inputs to clarify
 Before modeling begins, clarify the following:
 **Level 0 - Framing.**
