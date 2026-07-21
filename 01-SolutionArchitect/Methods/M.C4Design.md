@@ -34,7 +34,7 @@ This method normally works through three C4 levels:
 Use a component view selectively. Do not create it merely to complete the C4 hierarchy.
 Code-level diagrams are outside the default scope of this method. Add them only when implementation structure is itself the architectural decision or risk under review.
 ## Inputs to clarify
-Before modeling begins, clarify the following:
+Before modeling begins, clarify the following
 **Level 0 - Framing.**
 - What is the system of interest: what is inside the architecture scope
 - What is the bounded context of this design discussion: project stage, domain, or decision point.
