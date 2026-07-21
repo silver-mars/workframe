@@ -36,7 +36,7 @@ Code-level diagrams are outside the default scope of this method. Add them only 
 ## Inputs to clarify
 Before modeling begins, clarify enough to make the next architectural decision explicit and reviewable.
 **Level 0 - Framing.**
-- What is the system of interest: what is inside the architecture scope
+- What is the system of interest: what is inside the architecture scope and what remains in its environment
 - What is the bounded context of this design discussion: project stage, domain, or decision point.
 **Level 1 - Architecture-shaping inputs**
 - Who are the relevant stakeholders, and what are their concerns
