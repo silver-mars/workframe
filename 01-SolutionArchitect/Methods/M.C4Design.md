@@ -32,7 +32,7 @@ This method normally works through three C4 levels:
 - **Container** - the major runtime, deployment, storage, and responsibility-bearing units.
 - **Component** - selected internal responsibilities within a container when they carry material architectural risk or decision weight.
 Use a component view selectively. Do not create it merely to complete the C4 hierarchy.
-Code-level diagrams
+Code-level diagrams are outside the default scope of this method. Add them only when implementation structure is itself
 ## Inputs to clarify
 Before modeling begins, clarify the following:
 **Level 0 - Framing.**
