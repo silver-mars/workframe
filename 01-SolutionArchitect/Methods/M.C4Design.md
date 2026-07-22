@@ -37,7 +37,8 @@ Code-level diagrams are outside the default scope of this method. Add them only 
 Before modeling begins, clarify enough to make the next architectural decision explicit and reviewable.
 **Level 0 - Framing.**
 - What is the system of interest: what is inside the architecture scope and what remains in its environment.
-- What decision, project stage, or problems defines the bounded context of this discussion?
+- What decision, project stage, or problems defines the bounded context of this discussion.
+- What outcome would make this design work successful.
 **Level 1 - Architecture-shaping inputs**
 - Who are the relevant stakeholders, and what are their concerns.
 - What are the business goals, constraints, and success criteria.
