@@ -40,7 +40,7 @@ Before modeling begins, clarify enough to make the next architectural decision e
 - What decision, project stage, or problems defines the bounded context of this discussion.
 - What outcome would make this design work successful.
 **Level 1 - Architecture-shaping inputs**
-- Who are the relevant stakeholders, and what are their concerns.
+- Which stakeholders matter, what concerns they have, and which concern is driving 
 - What are the business goals, constraints, and success criteria.
 - What quality attributes are materially important: scalability, resilience, security, operability, evolvability.
 - What are the known external dependencies, integration points, and likely changed drivers.
