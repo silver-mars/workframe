@@ -37,16 +37,16 @@ Code-level diagrams are outside the default scope of this method. Add them only 
 Before modeling begins, clarify enough to make the next architectural decision explicit and reviewable.
 **Level 0 - Framing.**
 - What is the system of interest: what is inside the architecture scope and what remains in its environment.
-- What is the bounded context of this design discussion: project stage, domain, or decision point.
+- What 
 **Level 1 - Architecture-shaping inputs**
 - Who are the relevant stakeholders, and what are their concerns.
 - What are the business goals, constraints, and success criteria.
-- What quality attributes are materially important: scalability, resilience, security, operability, evolvability
+- What quality attributes are materially important: scalability, resilience, security, operability, evolvability.
 - What are the known external dependencies, integration points, and likely changed drivers.
 **Level 2 - Risk focused inputs**
-- Where are the failure domains and what are the isolation boundaries
-- Who has operational ownership of each major container
-- Where are the high-risk integration surfaces and what coupling assumptions are being made
+- Where are the failure domains and what are the isolation boundaries.
+- Who has operational ownership of each major container.
+- Where are the high-risk integration surfaces and what coupling assumptions are being made.
 - What constraints exist on the solution space: regulatory, organizational, or technical.
 ## Working principles
 - Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
