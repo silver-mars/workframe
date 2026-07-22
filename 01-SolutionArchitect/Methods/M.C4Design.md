@@ -41,8 +41,8 @@ Before modeling begins, clarify enough to make the next architectural decision e
 - What outcome would make this design work successful.
 **Level 1 - Architecture-shaping inputs**
 - Which stakeholders matter, what concerns they have, and which concern is driving the current decision.
-- Which business goals, constraints, and success criteria.
-- What quality attributes are materially important: scalability, resilience, security, operability, evolvability.
+- Which business goals, constraints, and success criteria are non-negotiable.
+- Which quality attributes are 
 - What are the known external dependencies, integration points, and likely changed drivers.
 **Level 2 - Risk focused inputs**
 - Where are the failure domains and what are the isolation boundaries.
