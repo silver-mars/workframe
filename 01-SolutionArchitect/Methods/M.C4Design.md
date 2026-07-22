@@ -43,7 +43,7 @@ Before modeling begins, clarify enough to make the next architectural decision e
 - Which stakeholders matter, what concerns they have, and which concern is driving the current decision.
 - Which business goals, constraints, and success criteria are non-negotiable.
 - Which quality attributes materially affect the design, and what failure or trade-off each one is intended to prevent.
-- What are the known external dependencies, integration points, and likely changed drivers.
+- Which 
 **Level 2 - Risk focused inputs**
 - Where are the failure domains and what are the isolation boundaries.
 - Who has operational ownership of each major container.
