@@ -47,7 +47,7 @@ Before modeling begins, clarify enough to make the next architectural decision e
 **Level 2 - Risk focused inputs**
 - Which failure domains and isolation boundaries matter, including the expected failure propagation paths.
 - Which team owns the operation, monitoring, recovery, and change of each major container.
-- Where are the high-risk integration surfaces and what coupling assumptions are being made.
+- Which integration surfaces have the highest uncertainty, coupling, 
 - What constraints exist on the solution space: regulatory, organizational, or technical.
 ## Working principles
 - Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
