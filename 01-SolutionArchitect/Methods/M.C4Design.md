@@ -46,7 +46,7 @@ Before modeling begins, clarify enough to make the next architectural decision e
 - Which external dependencies, integration surfaces, data ownership boundaries, and change drivers constraint the design.
 **Level 2 - Risk focused inputs**
 - Which failure domains and isolation boundaries matter, including the expected failure propagation paths.
-- Who has operational ownership of each major container.
+- Which team owns the operation, monitoring, recovery, and change of each major container.
 - Where are the high-risk integration surfaces and what coupling assumptions are being made.
 - What constraints exist on the solution space: regulatory, organizational, or technical.
 ## Working principles
