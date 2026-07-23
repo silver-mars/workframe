@@ -48,7 +48,7 @@ Before modeling begins, clarify enough to make the next architectural decision e
 - Which failure domains and isolation boundaries matter, including the expected failure propagation paths.
 - Which team owns the operation, monitoring, recovery, and change of each major container.
 - Which integration surfaces have the highest uncertainty, coupling, throughout, availability, and security risk.
-- Which assumptions need validation, 
+- Which assumptions need validation before a solution option can be accepted or rejected.
 ## Working principles
 - Start from stakeholder concerns, then make system boundaries explicit before refining internal structure.
 - Use views to reveal responsibilities, dependencies, constraints, change pressure, and high-risk areas.
