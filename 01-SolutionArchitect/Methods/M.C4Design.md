@@ -12,7 +12,7 @@ preconditions:
   - Understanding of the target system boundary and constraints.
   - Availability of current architecture, domain, and integration information.
 postconditions:
-  - System context, container, and component views are produced or updated.
+  - System context and container views are produced or updated when they are needed to answer the current architectural question.
   - Architecture decisions and boundaries are clarified.
   - Stakeholders have a shared understanding of the system structure.
 ---
