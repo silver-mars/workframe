@@ -15,7 +15,7 @@ postconditions:
   - System context and container views are produced or updated when they are needed to answer the current architectural question.
   - Component views are produced or updated only for containers with material architectural risk, complexity, coupling, or decision weight.
   - Architectural boundaries, responsibilities, and decision trade-offs are clarified for the current scope.
-  - The intended stakeholders have a shared, reviewable 
+  - The intended stakeholders have a shared, reviewable understanding of the relevant system structure.
 ---
 # C4 Design as an Architectural Thinking Method
 ## What it is
