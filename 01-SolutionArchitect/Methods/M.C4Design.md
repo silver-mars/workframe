@@ -13,7 +13,7 @@ preconditions:
   - Availability of current architecture, domain, and integration information.
 postconditions:
   - System context and container views are produced or updated when they are needed to answer the current architectural question.
-  - Architecture decisions and boundaries are clarified.
+  - Component views are produced or updated only for containers with material architectural risk, complexity, coupling, or decision weight.
   - Stakeholders have a shared understanding of the system structure.
 ---
 # C4 Design as an Architectural Thinking Method
