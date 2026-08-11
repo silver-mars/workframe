@@ -7,25 +7,23 @@ status: Active
 rcs:
  - "agency: Predictive"
  - "safety: SC2"
-justification: Togaf, C4Model, ADR
+justification: TOGAF, C4 Model, ADR
 ---
 # Solution Architect
 
 ## Core responsibilities
-- Architect projecting
-- C4
+- Architecture design and system decomposition
+- C4 modelling
 - ADR (Architecture Decision Records)
 - RFC (Request for Comments)
 
 ## My methods
-- **C4 Design** — links
-- **ADR Framework** — links
-- **Migration Analysis** — links
+- **[C4 Design](../Methods/M.C4Design.md)** — structuring architectural reasoning about boundaries, responsibilities, and trade-offs
+- **[Capacity Planning](../Methods/M.CapacityPlanning.md)** — sizing and headroom decisions under operational constraints
 
-## Evidence
-- [Worklog: legacy migration into OpenStack] links
-- [SLO: 99.9% uptime] links
+## Cases
+- **[From Security Concern to UAT Readiness](../Cases/C.SecurityStakeholder.md)** — a runtime security baseline reshaping workload packaging and delivery readiness
 
 ## Safety & Agency
-- Agency: Predictive (prediction trouble before Operation)
-- Safety: SC2 (critical system with rollback)
+- Agency: Predictive — anticipating trouble before operation
+- Safety: SC2 — critical system with rollback
