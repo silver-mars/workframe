@@ -4,8 +4,8 @@ This case tracks a direct chain from security concern to delivery consequence. R
 The system under discussion was a Kubernetes-hosted application preparing for user acceptance testing in an environment with strict runtime security expectations.
 The delivery scope covered workload packaging, deployment manifest, platform interaction, and operational readiness for development, support, and platform teams.
 ## Security driver
-Information security set one of the primary concern for this work.
-The concern focused on security policies, that can be expressed through pod- and container-level settings.
+Information security was one of the primary stakeholders for this work.
+The concern focused on security policies that can be expressed through pod- and container-level settings.
 The required baseline covered:
 * non-root execution,
 * reduced writable surface,
@@ -23,10 +23,10 @@ It influenced:
 * log collection expectations,
 * debugging and support routines,
 * workload manifest structure.
-This moved the topic from a platform configuration detail into an architecture and delivery coordination issues.
+This moved the topic from a platform configuration detail into an architecture and delivery coordination issue.
 ## Mini-diagram section
 ### Structural view
-The repository can store the diagram source as PlantUML and showed the rendered image in GitHub.
+The repository stores the diagram source as PlantUML and renders the image in GitHub.
 ```PlantUML
 @startuml
 skinparam BackgroundColor white
@@ -91,13 +91,13 @@ This created a shared engineering interpretation of the security concern.
 ## Team enablement
 A focused enablement track translated the security baseline into concrete engineering actions.
 The sessions covered:
-* what non-root executions changes in practice,
+* what non-root execution changes in practice,
 * how a read-only filesystem affects runtime writes,
 * where applications can keep temporary files,
 * how logging and diagnostics can work under restricted runtime conditions,
 * what support engineers can expect during incident investigation,
 * which manifest fields carry the required controls.
-This work reduced ambiguity and gave the team a clear preparation.
+This work reduced ambiguity and gave the team a clear basis for preparation.
 ## Example manifest fragment
 The final workload baseline included the following runtime controls:
 ```yaml
@@ -119,10 +119,10 @@ The team entered UAT with aligned runtime expectations, prepared manifests, and 
 The project gained delivery stability through earlier interpretation, clearer ownership, and targeted preparation across roles.
 ## Architectural takeaway
 Security concerns can reshape delivery conditions through runtime constraints and team preparation requirements.
-Architectural work in such cases include:
+Architectural work in such cases includes:
 * selecting a useful structural view,
 * identifying the operational consequences behind that view,
-* creating a translation artifact for selected engineers,
+* creating a translation artifact for the engineers who need it,
 * aligning the delivery chain before the final test stage.
 This case shows how a stakeholder concern can move through design constraints, team enablement, and delivery preparation into a concrete project outcome.
 
